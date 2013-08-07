@@ -1,0 +1,8 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\PROGRA~1\HP\LOADRU~1\include
+-eC:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\ramDom_click_chi_tiet_hon\logfile.log
+C:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\ramDom_click_chi_tiet_hon\combined_mQmbSDGOeEW5YBj2+INtXA==2.c
+C:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\ramDom_click_chi_tiet_hon\pre_cci.c
