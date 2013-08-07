@@ -1,0 +1,66 @@
+Virtual User Script started at : 2013-08-07 09:48:18
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for Windows 7 build 8859, initialized on 2013/08/07 at 09:48:16 (1375843696.956s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00002028ms: ** 1: Wait 3 seconds ** started    [MsgId: MMSG-204251]
+t=00005054ms: ** 1: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00005054ms: ** 2: Evaluate JS http = LR.getParam("http"); window.alert(http);  ** started    [MsgId: MMSG-204251]
+t=00006868ms: ** 2: Evaluate JS http = LR.getParam("http"); window.alert(http);  ** successfully completed    [MsgId: MMSG-204250]
+t=00006873ms: ** 3: Navigate to http ** started    [MsgId: MMSG-204251]
+t=00033842ms: ** 3: Navigate to "http://bo.ezstore.vn" ** successfully completed    [MsgId: MMSG-204250]
+t=00033857ms: ** 6: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
+t=00035885ms: ** 6: Type "demo" in Tên ??ng nh?p textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00035885ms: ** 7: Type ????????? in M?t kh?u passwordbox ** started    [MsgId: MMSG-204251]
+t=00038896ms: ** 7: Type ????????? in M?t kh?u passwordbox ** successfully completed    [MsgId: MMSG-204250]
+t=00038896ms: ** 8: Type "10002" in Mã c?a hàng textbox ** started    [MsgId: MMSG-204251]
+t=00041439ms: ** 8: Type "10002" in Mã c?a hàng textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00041439ms: ** 9: Click on ??ng nh?p gridcell ** started    [MsgId: MMSG-204251]
+t=00045074ms: ** 9: Click on ??ng nh?p gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00045089ms: ** 11: Wait 4 seconds ** started    [MsgId: MMSG-204251]
+t=00049145ms: ** 11: Wait 4 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00049145ms: ** 12: Click on button button ** started    [MsgId: MMSG-204251]
+t=00050269ms: ** 12: Click on button button ** successfully completed    [MsgId: MMSG-204250]
+t=00050269ms: ** 14: Evaluate JS var x = Math.floor (11 * Math.random () +5); window.alert(x);   ** started    [MsgId: MMSG-204251]
+t=00052718ms: ** 14: Evaluate JS var x = Math.floor (11 * Math.random () +5); window.alert(x);   ** successfully completed    [MsgId: MMSG-204250]
+t=00052734ms: ** 15: Wait 6 seconds ** started    [MsgId: MMSG-204251]
+t=00058787ms: ** 15: Wait 6 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00058802ms: ** 16: If (x==5) ** started    [MsgId: MMSG-204251]
+t=00058865ms: ** 16: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00058865ms: ** 17: If (x==6) ** started    [MsgId: MMSG-204251]
+t=00058943ms: ** 17: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00058974ms: ** 18: If (x==7) ** started    [MsgId: MMSG-204251]
+t=00059036ms: ** 18: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00059067ms: ** 19: If (x==8) ** started    [MsgId: MMSG-204251]
+t=00059145ms: ** 19: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00059161ms: ** 20: If (x==9) ** started    [MsgId: MMSG-204251]
+t=00059239ms: ** 20: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00059239ms: ** 21: If (x==10) ** started    [MsgId: MMSG-204251]
+t=00059317ms: ** 21: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00059317ms: ** 22: If (x==11) ** started    [MsgId: MMSG-204251]
+t=00059473ms: ** 22: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00059489ms: ** 23: If (x==12) ** started    [MsgId: MMSG-204251]
+t=00059567ms: ** 23: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00059582ms: ** 24: If (x==13) ** started    [MsgId: MMSG-204251]
+t=00059613ms: ** 24.1: Click on BÁO CÁO ** started    [MsgId: MMSG-204251]
+t=00060331ms: ** 24.1: Click on BÁO CÁO ** successfully completed    [MsgId: MMSG-204250]
+t=00060331ms: ** 24.2: Wait 10 seconds ** started    [MsgId: MMSG-204251]
+t=00070362ms: ** 24.2: Wait 10 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00070393ms: ** 24: If (true) ** successfully completed    [MsgId: MMSG-204250]
+t=00070409ms: ** 25: If (x==14) ** started    [MsgId: MMSG-204251]
+t=00070440ms: ** 25: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00070440ms: ** 26: If (x==15) ** started    [MsgId: MMSG-204251]
+t=00070487ms: ** 26: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00070487ms: ** 27: If (x==16) ** started    [MsgId: MMSG-204251]
+t=00070518ms: ** 27: If (false) ** successfully completed    [MsgId: MMSG-204250]
+t=00070518ms: ** 28: Click on ??ng xu?t gridcell ** started    [MsgId: MMSG-204251]
+t=00072639ms: ** 28: Click on ??ng xu?t gridcell ** successfully completed    [MsgId: MMSG-204250]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

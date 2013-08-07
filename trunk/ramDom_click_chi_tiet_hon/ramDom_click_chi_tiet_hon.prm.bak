@@ -1,0 +1,16 @@
+[parameter:ma_khach_hang]
+Format="%04lu"
+ParamName="ma_khach_hang"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="100"
+OriginalValue=""
+MinValue="1"
+[parameter:ten_khach_hang]
+Format="%05lu"
+ParamName="ten_khach_hang"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="100"
+OriginalValue=""
+MinValue="1"
