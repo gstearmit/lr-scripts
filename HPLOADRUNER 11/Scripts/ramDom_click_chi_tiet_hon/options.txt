@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Documents and Settings\LoadRunner\Desktop\HPLOADRUNER 11\Scripts\ramDom_click_chi_tiet_hon
+-IC:\Program Files\HP\LoadRunner\include
+-ec:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\ramdom_click_chi_tiet_hon\\logfile.log
+c:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\ramdom_click_chi_tiet_hon\\combined_ramDom_click_chi_tiet_hon.c
+c:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\ramdom_click_chi_tiet_hon\\pre_cci.c

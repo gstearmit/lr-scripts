@@ -1,0 +1,8 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\PROGRA~1\HP\LOADRU~1\include
+-eC:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\khach_hang_click_bo.ezmall.vn\logfile.log
+C:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\khach_hang_click_bo.ezmall.vn\combined_XZbusEVTB0mkwhiknt_PAQ==1.c
+C:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\khach_hang_click_bo.ezmall.vn\pre_cci.c

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   width="994"
+                   height="760"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
+                   value="LoadRunner VuGen for TruClient - Khach_hang_bo.ezstore.vn" />
+  <RDF:Description RDF:about="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul#lrJavaScriptDialog"
+                   width="617"
+                   height="516"
+                   screenX="551"
+                   screenY="121" />
+  <RDF:Description RDF:about="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul">
+    <NC:persist RDF:resource="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul#lrJavaScriptDialog"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#loadRunnerSplitter"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#loadRunnerSidebarContentBox"/>
+  </RDF:Description>
+</RDF:RDF>

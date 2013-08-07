@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\thu_chi_bo.ezmall.vn
+-IC:\Program Files\HP\LoadRunner\include
+-ec:\users\loadrunner11\desktop\hploadruner 11\scripts\thu_chi_bo.ezmall.vn\\logfile.log
+c:\users\loadrunner11\desktop\hploadruner 11\scripts\thu_chi_bo.ezmall.vn\\combined_thu_chi_bo.ezmall.vn.c
+c:\users\loadrunner11\desktop\hploadruner 11\scripts\thu_chi_bo.ezmall.vn\\pre_cci.c

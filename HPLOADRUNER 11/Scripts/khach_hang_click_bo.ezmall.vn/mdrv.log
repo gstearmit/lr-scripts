@@ -1,0 +1,18 @@
+Virtual User Script started at : 2013-08-06 10:47:26
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for Windows 7 build 8859, initialized on 2013/08/06 at 10:47:25 (1375760845.777s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00000467ms: ** 16: Them Moi Khach hang ** started    [MsgId: MMSG-204251]
+t=00000496ms: ** 16.1: Click on Khách hàng ** started    [MsgId: MMSG-204251]
+t=00022301ms: Error -203246: ** 16.1: Click on Khách hàng ** failed - target object was not found.    [MsgId: MERR-203246]
+t=00022305ms: Error -203250: ** 16: Them Moi Khach hang ** was aborted because of an error in another step    [MsgId: MERR-203250]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

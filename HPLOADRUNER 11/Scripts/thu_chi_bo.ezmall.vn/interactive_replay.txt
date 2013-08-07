@@ -1,0 +1,64 @@
+Virtual User Script started at : 2013-08-05 18:22:57
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for Windows 7 build 8859, initialized on 2013/08/05 at 18:22:54 (1375701774.508s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00003151ms: ** 1: Navigate to "http://bo.ezmall.vn/" ** started    [MsgId: MMSG-204251]
+t=00006318ms: ** 1: Navigate to "http://bo.ezmall.vn/" ** successfully completed    [MsgId: MMSG-204250]
+t=00006334ms: ** 4: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
+t=00008143ms: ** 4: Type "demo" in Tên ??ng nh?p textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00008143ms: ** 5: Type ????????? in M?t kh?u passwordbox ** started    [MsgId: MMSG-204251]
+t=00011918ms: ** 5: Type ????????? in M?t kh?u passwordbox ** successfully completed    [MsgId: MMSG-204250]
+t=00011918ms: ** 6: Type "10002" in Mã c?a hàng textbox ** started    [MsgId: MMSG-204251]
+t=00014742ms: ** 6: Type "10002" in Mã c?a hàng textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00014758ms: ** 8: Click on ??ng nh?p gridcell ** started    [MsgId: MMSG-204251]
+t=00015428ms: ** 8: Click on ??ng nh?p gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00015428ms: ** 10: Wait 5 seconds ** started    [MsgId: MMSG-204251]
+t=00020483ms: ** 10: Wait 5 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00020498ms: ** 11: Click on button (2) button ** started    [MsgId: MMSG-204251]
+t=00021169ms: ** 11: Click on button (2) button ** successfully completed    [MsgId: MMSG-204250]
+t=00021185ms: ** 12: Wait 8 seconds ** started    [MsgId: MMSG-204251]
+t=00029219ms: ** 12: Wait 8 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00029234ms: ** 13: Click on THU CHI ** started    [MsgId: MMSG-204251]
+t=00029890ms: ** 13: Click on THU CHI ** successfully completed    [MsgId: MMSG-204250]
+t=00029905ms: ** 15: Click on Phi?u thu ** started    [MsgId: MMSG-204251]
+t=00032635ms: ** 15: Click on Phi?u thu ** successfully completed    [MsgId: MMSG-204250]
+t=00032635ms: ** 17: Click on Thêm m?i gridcell ** started    [MsgId: MMSG-204251]
+t=00033212ms: ** 17: Click on Thêm m?i gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00033212ms: ** 20: Type "3000000" in 0 textbox ** started    [MsgId: MMSG-204251]
+t=00037783ms: ** 20: Type "3000000" in 0 textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00037799ms: ** 23: Type "Hoang Phuc" in ?i?n tho?i textbox ** started    [MsgId: MMSG-204251]
+t=00043103ms: ** 23: Type "Hoang Phuc" in ?i?n tho?i textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00043103ms: ** 29: Type "Ha noi" in ??a ch? textbox ** started    [MsgId: MMSG-204251]
+t=00045833ms: ** 29: Type "Ha noi" in ??a ch? textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00045833ms: ** 31: Type "Thanh Toan Phan Men" in Ghi chú textbox ** started    [MsgId: MMSG-204251]
+t=00053414ms: ** 31: Type "Thanh Toan Phan Men" in Ghi chú textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00053414ms: ** 35: Type "HangHoang" in Ch?ng t? g?c textbox ** started    [MsgId: MMSG-204251]
+t=00057486ms: ** 35: Type "HangHoang" in Ch?ng t? g?c textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00057486ms: ** 37: Type "0976543567" in ?i?n tho?i textbox ** started    [MsgId: MMSG-204251]
+t=00061963ms: ** 37: Type "0976543567" in ?i?n tho?i textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00061963ms: ** 40: Click on L?u gridcell ** started    [MsgId: MMSG-204251]
+t=00062665ms: ** 40: Click on L?u gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00062681ms: ** 41: Wait 8 seconds ** started    [MsgId: MMSG-204251]
+t=00070762ms: ** 41: Wait 8 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00070762ms: ** 42: Click on Phi?u chi ** started    [MsgId: MMSG-204251]
+t=00071479ms: ** 42: Click on Phi?u chi ** successfully completed    [MsgId: MMSG-204250]
+t=00071495ms: ** 43: Wait 3 seconds ** started    [MsgId: MMSG-204251]
+t=00074537ms: ** 43: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00074553ms: ** 44: Click on Thêm m?i gridcell ** started    [MsgId: MMSG-204251]
+t=00075239ms: ** 44: Click on Thêm m?i gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00075239ms: ** 46: Wait 3 seconds ** started    [MsgId: MMSG-204251]
+t=00078281ms: ** 46: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00078297ms: ** 47: Type "3000000" in 0 textbox ** started    [MsgId: MMSG-204251]
+t=00081588ms: ** 47: Type "3000000" in 0 textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00081588ms: ** 50: Type "Hang Thu" in Ng??i nh?n textbox ** started    [MsgId: MMSG-204251]
+t=00101806ms: Error -203245: ** 50: Type "Hang Thu" in Ng??i nh?n textbox ** failed - multiple objects were found that are similar to the target object. TruClient was not able to uniquely identify the target object    [MsgId: MERR-203245]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
