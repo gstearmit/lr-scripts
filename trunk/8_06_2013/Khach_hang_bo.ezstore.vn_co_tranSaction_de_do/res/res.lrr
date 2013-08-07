@@ -1,0 +1,32 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=11.0.0.0
+Path=Scenario1
+Subject=
+Result_file=C:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Khach_hang_bo.ezstore.vn_co_tranSaction_de_do\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-25200
+Start_time=1375841824
+Daylight_Bias=0
+Stop_time=1375842036
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Default Schedule
+Mode=Scenario Scheduling
+Scenario Duration=Until Completion
+Load Behavior=Property
+[Scripts]
+Khach_hang_bo.ezstore.vn_co_tranSaction_de_do=C:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Khach_hang_bo.ezstore.vn_co_tranSaction_de_do\Khach_hang_bo.ezstore.vn_co_tranSaction_de_do.usr
+[Scripts_types]
+Khach_hang_bo.ezstore.vn_co_tranSaction_de_do=Web2UI

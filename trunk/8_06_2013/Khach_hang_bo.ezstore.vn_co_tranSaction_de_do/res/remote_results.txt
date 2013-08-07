@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Khach_hang_bo.ezstore.vn_co_tranSaction_de_do\res\localhost_1.eve
