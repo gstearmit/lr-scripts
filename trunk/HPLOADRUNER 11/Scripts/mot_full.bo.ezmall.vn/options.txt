@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Documents and Settings\LoadRunner\Desktop\HPLOADRUNER 11\Scripts\mot_full.bo.ezmall.vn
+-IC:\Program Files\HP\LoadRunner\include
+-ec:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\mot_full.bo.ezmall.vn\\logfile.log
+c:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\mot_full.bo.ezmall.vn\\combined_mot_full.bo.ezmall.vn.c
+c:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\mot_full.bo.ezmall.vn\\pre_cci.c

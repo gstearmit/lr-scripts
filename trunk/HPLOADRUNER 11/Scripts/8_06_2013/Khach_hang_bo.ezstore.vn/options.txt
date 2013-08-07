@@ -1,0 +1,8 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Program Files\HP\LoadRunner\include
+-eC:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\8_06_2013\Khach_hang_bo.ezstore.vn\logfile.log
+C:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\8_06_2013\Khach_hang_bo.ezstore.vn\combined_hYItrUk0IEakBbd+Z3XZfw==0.c
+C:\Users\LOADRUNNER11\Desktop\HPLOADRUNER 11\Scripts\8_06_2013\Khach_hang_bo.ezstore.vn\pre_cci.c
