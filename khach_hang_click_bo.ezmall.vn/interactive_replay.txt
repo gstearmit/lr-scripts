@@ -1,0 +1,36 @@
+Virtual User Script started at : 2013-08-06 17:00:09
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/06 at 17:00:08 (1375783208.924s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00001223ms: ** 1: Navigate to "http://bo.ezstore.vn/" ** started    [MsgId: MMSG-204251]
+t=00003856ms: ** 1: Navigate to "http://bo.ezstore.vn/" ** successfully completed    [MsgId: MMSG-204250]
+t=00003862ms: ** 4: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
+t=00005761ms: ** 4: Type "demo" in Tên ??ng nh?p textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00005767ms: ** 5: Type ????????? in M?t kh?u passwordbox ** started    [MsgId: MMSG-204251]
+t=00009416ms: ** 5: Type ????????? in M?t kh?u passwordbox ** successfully completed    [MsgId: MMSG-204250]
+t=00009421ms: ** 6: Type "10002" in Mã c?a hàng textbox ** started    [MsgId: MMSG-204251]
+t=00011604ms: ** 6: Type "10002" in Mã c?a hàng textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00011609ms: ** 8: Click on ??ng nh?p gridcell ** started    [MsgId: MMSG-204251]
+t=00012276ms: ** 8: Click on ??ng nh?p gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00012280ms: ** 9: Wait 5 seconds ** started    [MsgId: MMSG-204251]
+t=00017307ms: ** 9: Wait 5 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00017312ms: ** 11: Click on button button ** started    [MsgId: MMSG-204251]
+t=00017979ms: ** 11: Click on button button ** successfully completed    [MsgId: MMSG-204250]
+t=00017984ms: ** 13: Wait 8 seconds ** started    [MsgId: MMSG-204251]
+t=00026044ms: ** 13: Wait 8 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00026049ms: ** 14: Click on KHÁCH HÀNG ** started    [MsgId: MMSG-204251]
+t=00026731ms: ** 14: Click on KHÁCH HÀNG ** successfully completed    [MsgId: MMSG-204250]
+t=00026790ms: ** 16: Them Moi Khach hang ** started    [MsgId: MMSG-204251]
+t=00026841ms: ** 16.1: Click on Khách hàng ** started    [MsgId: MMSG-204251]
+t=00047126ms: Error -203246: ** 16.1: Click on Khách hàng ** failed - target object was not found.    [MsgId: MERR-203246]
+t=00047131ms: Error -203250: ** 16: Them Moi Khach hang ** was aborted because of an error in another step    [MsgId: MERR-203250]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
