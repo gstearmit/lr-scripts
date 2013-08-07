@@ -1,0 +1,8 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Program Files\HP\LoadRunner\include
+-eC:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Khach_hang_bo.ezstore.vn\logfile.log
+C:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Khach_hang_bo.ezstore.vn\combined_pY0_G5Dk7kiXAGOFvZqM8g==0.c
+C:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Khach_hang_bo.ezstore.vn\pre_cci.c

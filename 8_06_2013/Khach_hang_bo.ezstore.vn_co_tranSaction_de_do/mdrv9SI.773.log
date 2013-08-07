@@ -1,0 +1,16 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+t=00096360ms: ** 20: Wait 8 seconds ** successfully completed    [MsgId: MMSG-204250]	[MsgId: MMSG-204250]
+t=00096360ms: ** 24: Wait 6 seconds ** started    [MsgId: MMSG-204251]	[MsgId: MMSG-204251]
+t=00102360ms: ** 24: Wait 6 seconds ** successfully completed    [MsgId: MMSG-204250]	[MsgId: MMSG-204250]
+t=00102360ms: ** 25: The Tra Truoc ** started    [MsgId: MMSG-204251]	[MsgId: MMSG-204251]
+Notify: Transaction "The_tra_truoc" started.	[MsgId: MMSG-16999]
+t=00102374ms: ** 25.1: Click on Th? tr? tr??c ** started    [MsgId: MMSG-204251]	[MsgId: MMSG-204251]
+t=00103000ms: ** 25.1: Click on Th? tr? tr??c ** successfully completed    [MsgId: MMSG-204250]	[MsgId: MMSG-204250]
+t=00103001ms: ** 25.2: Wait 6 seconds ** started    [MsgId: MMSG-204251]	[MsgId: MMSG-204251]
+t=00109000ms: ** 25.2: Wait 6 seconds ** successfully completed    [MsgId: MMSG-204250]	[MsgId: MMSG-204250]
+t=00109001ms: ** 25.4: Click on Thêm m?i gridcell ** started    [MsgId: MMSG-204251]	[MsgId: MMSG-204251]
+t=00151053ms: Error -203246: ** 25.4: Click on Thêm m?i gridcell ** failed - target object was not found.    [MsgId: MERR-203246]	[MsgId: MERR-203246]
+t=00151055ms: Error -203250: ** 25: The Tra Truoc ** was aborted because of an error in another step    [MsgId: MERR-203250]	[MsgId: MERR-203250]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

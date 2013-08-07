@@ -1,0 +1,21 @@
+Virtual User Script started at : 2013-08-07 09:13:54
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/07 at 09:13:54 (1375841634.092s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00000721ms: ** 1: Wait 3 seconds ** started    [MsgId: MMSG-204251]
+t=00003777ms: ** 1: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00003783ms: ** 2: Evaluate JS http_truyen_vao = LR.getParam("http_truyen_vao"); window.alert(http_truyen_vao);  ** started    [MsgId: MMSG-204251]
+t=00007665ms: ** 2: Evaluate JS http_truyen_vao = LR.getParam("http_truyen_vao"); window.alert(http_truyen_vao);  ** successfully completed    [MsgId: MMSG-204250]
+t=00007671ms: ** 3: Navigate to http_truyen_vao ** started    [MsgId: MMSG-204251]
+t=00018317ms: ** 3: Navigate to "http://bo.ezstore.vn" ** was stopped    [MsgId: MMSG-204250]
+Ending action Action.
+Ending iteration 1.
+Abort was called from an action
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

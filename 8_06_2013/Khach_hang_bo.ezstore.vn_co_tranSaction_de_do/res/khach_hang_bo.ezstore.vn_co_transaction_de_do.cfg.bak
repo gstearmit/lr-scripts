@@ -1,0 +1,12 @@
+[Log]
+MsgClassParameters="1"
+MsgClassData="1"
+LogOptions="LogBrief"
+MsgClassFull="1"
+AutoLog=1
+[General]
+DefaultRunLogic="uspnED.895"
+AutomaticTransactions="0"
+UseThreads="0"
+[ThinkTime]
+Options=RECORDED

@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Documents and Settings\LoadRunner\Desktop\8_06_2013\Senario\Khach_hang_bo.ezstore.vn_co_tranSaction_de_do.lrs
+Completed=0
