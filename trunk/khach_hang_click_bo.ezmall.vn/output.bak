@@ -1,0 +1,17 @@
+Virtual User Script started at : 2013-08-06 13:56:05
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/06 at 13:56:01 (1375772161.731s)
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00003755ms: ** 1: Navigate to "http://bo.ezmall.vn/" ** started    [MsgId: MMSG-204251]
+t=00004881ms: ** 1: Navigate to "http://bo.ezmall.vn/" ** successfully completed    [MsgId: MMSG-204250]
+t=00004882ms: ** 4: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
+t=00024420ms: Error -203246: ** 4: Type "demo" in Tên ??ng nh?p textbox ** failed - target object was not found.    [MsgId: MERR-203246]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\LoadRunner 11\8_06_2013\HPLOADRUNER 11\Scripts\khach_hang_click_bo.ezmall.vn
+-IC:\Program Files\HP\LoadRunner\include
+-ed:\loadrunner 11\8_06_2013\hploadruner 11\scripts\khach_hang_click_bo.ezmall.vn\\logfile.log
+d:\loadrunner 11\8_06_2013\hploadruner 11\scripts\khach_hang_click_bo.ezmall.vn\\combined_khach_hang_click_bo.ezmall.vn.c
+d:\loadrunner 11\8_06_2013\hploadruner 11\scripts\khach_hang_click_bo.ezmall.vn\\pre_cci.c
