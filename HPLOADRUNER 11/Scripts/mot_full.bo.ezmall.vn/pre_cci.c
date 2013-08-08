@@ -1,5 +1,5 @@
-# 1 "c:\\documents and settings\\loadrunner\\desktop\\hploadruner 11\\scripts\\mot_full.bo.ezmall.vn\\\\combined_mot_full.bo.ezmall.vn.c"
-# 1 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h" 1
+# 1 "D:\\SCrtips_8_7_2013\\HPLOADRUNER 11\\Scripts\\mot_full.bo.ezmall.vn\\combined_V0d3jAB2gkSf9wyThFZb9w==1.c"
+# 1 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h" 1
  
  
 
@@ -26,7 +26,7 @@
 
 
 
-# 103 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 103 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
 
@@ -178,7 +178,7 @@ int lr_generate_uuid_free(lr_uuid_t uuid);
 int lr_generate_uuid_on_buf(lr_uuid_t buf);
 
    
-# 263 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 263 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 int lr_start_distributed_transaction  (char * transaction_name, lr_uuid_t correlator, long timeout  );
 
    
@@ -418,11 +418,11 @@ int   lr_msg (char * fmt, ...);
 int   lr_debug_message (unsigned int msg_class,
 									    char * format,
 										...);
-# 502 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 502 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 void   lr_new_prefix (int type,
                                  char * filename,
                                  int line);
-# 505 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 505 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 int   lr_log_message (char * fmt, ...);
 int   lr_message (char * fmt, ...);
 int   lr_error_message (char * fmt, ...);
@@ -436,7 +436,7 @@ int   lr_fail_trans_with_error (char * fmt, ...);
  
  
  
-# 528 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 528 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
  
  
@@ -471,7 +471,7 @@ int   lr_eval_string_ext (const char *in_str,
                                      unsigned long const options,
                                      const char *file,
 								     long const line);
-# 562 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 562 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 void   lr_eval_string_ext_free (char * * pstr);
 
  
@@ -495,7 +495,7 @@ void   lr_eval_string_ext_free (char * * pstr);
  
 int lr_param_increment (char * dst_name,
                               char * src_name);
-# 585 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 585 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
 
@@ -520,7 +520,7 @@ int	  lr_save_var (char *              param_val,
 							  unsigned long const param_val_len,
 							  unsigned long const options,
 							  char *			  param_name);
-# 609 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 609 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 int   lr_save_string (const char * param_val, const char * param_name);
 int   lr_free_parameter (const char * param_name);
 int   lr_save_int (const int param_val, const char * param_name);
@@ -532,7 +532,7 @@ int   lr_save_int (const int param_val, const char * param_name);
  
  
  
-# 676 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 676 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 void   lr_save_datetime (const char *format, int offset, const char *name);
 
 
@@ -594,7 +594,7 @@ char * lr_table_get_cell_by_col_name (char * param_name, int row, const char* co
 int lr_table_get_column_name_by_index (char * param_name, int col, 
 											char * * const col_name,
 											int * col_name_len);
-# 737 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 737 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 int lr_table_get_column_name_by_index_free (char * col_name);
 
@@ -620,12 +620,12 @@ int   lr_param_substit (char * file,
                                    int const in_len,
                                    char * * const out_str,
                                    int * const out_len);
-# 762 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 762 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 void   lr_param_substit_free (char * * pstr);
 
 
  
-# 774 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 774 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
 
@@ -634,14 +634,14 @@ void   lr_param_substit_free (char * * pstr);
 char *   lrfnc_eval_string (char * str,
                                       char * file_name,
                                       long const line_num);
-# 782 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 782 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
 int   lrfnc_save_string ( const char * param_val,
                                      const char * param_name,
                                      const char * file_name,
                                      long const line_num);
-# 788 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 788 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 int   lrfnc_free_parameter (const char * param_name );
 
@@ -653,7 +653,7 @@ int lr_save_searched_string(char *buffer, long buf_size, unsigned int occurrence
 char *   lr_string (char * str);
 
  
-# 859 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 859 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 int   lr_save_value (char * param_val,
                                 unsigned long const param_val_len,
@@ -661,7 +661,7 @@ int   lr_save_value (char * param_val,
                                 char * param_name,
                                 char * file_name,
                                 long const line_num);
-# 866 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 866 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
  
@@ -684,7 +684,7 @@ int   lr_printf (char * fmt, ...);
  
 int   lr_set_debug_message (unsigned int msg_class,
                                        unsigned int swtch);
-# 888 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 888 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 unsigned int   lr_get_debug_message (void);
 
 
@@ -714,7 +714,7 @@ int *   lr_localtime (long offset);
 int   lr_send_port (long port);
 
 
-# 964 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 964 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
 
@@ -732,10 +732,10 @@ void vuser_declaration (void);
 
 
 
-# 993 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 993 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
-# 1005 "C:\\Program Files\\HP\\LoadRunner\\include/lrun.h"
+# 1005 "C:\\PROGRA~1\\HP\\LOADRU~1\\include/lrun.h"
 
 
 
@@ -822,26 +822,19 @@ int lr_convert_string_encoding(char *sourceString, char *fromEncoding, char *toE
 
 
 
-# 1 "c:\\documents and settings\\loadrunner\\desktop\\hploadruner 11\\scripts\\mot_full.bo.ezmall.vn\\\\combined_mot_full.bo.ezmall.vn.c" 2
+# 1 "D:\\SCrtips_8_7_2013\\HPLOADRUNER 11\\Scripts\\mot_full.bo.ezmall.vn\\combined_V0d3jAB2gkSf9wyThFZb9w==1.c" 2
 
-# 1 "vuser_init.c" 1
-vuser_init()
+# 1 "D:\\SCrtips_8_7_2013\\HPLOADRUNER 11\\Scripts\\mot_full.bo.ezmall.vn\\C-functions.c" 1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+void main()
 {
-	return 0;
+	
 }
-# 2 "c:\\documents and settings\\loadrunner\\desktop\\hploadruner 11\\scripts\\mot_full.bo.ezmall.vn\\\\combined_mot_full.bo.ezmall.vn.c" 2
-
-# 1 "Action.c" 1
-Action()
-{
-	return 0;
-}
-# 3 "c:\\documents and settings\\loadrunner\\desktop\\hploadruner 11\\scripts\\mot_full.bo.ezmall.vn\\\\combined_mot_full.bo.ezmall.vn.c" 2
-
-# 1 "vuser_end.c" 1
-vuser_end()
-{
-	return 0;
-}
-# 4 "c:\\documents and settings\\loadrunner\\desktop\\hploadruner 11\\scripts\\mot_full.bo.ezmall.vn\\\\combined_mot_full.bo.ezmall.vn.c" 2
+# 2 "D:\\SCrtips_8_7_2013\\HPLOADRUNER 11\\Scripts\\mot_full.bo.ezmall.vn\\combined_V0d3jAB2gkSf9wyThFZb9w==1.c" 2
 

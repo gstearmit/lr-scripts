@@ -2,8 +2,7 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Documents and Settings\LoadRunner\Desktop\HPLOADRUNER 11\Scripts\mot_full.bo.ezmall.vn
--IC:\Program Files\HP\LoadRunner\include
--ec:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\mot_full.bo.ezmall.vn\\logfile.log
-c:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\mot_full.bo.ezmall.vn\\combined_mot_full.bo.ezmall.vn.c
-c:\documents and settings\loadrunner\desktop\hploadruner 11\scripts\mot_full.bo.ezmall.vn\\pre_cci.c
+-IC:\PROGRA~1\HP\LOADRU~1\include
+-eD:\SCrtips_8_7_2013\HPLOADRUNER 11\Scripts\mot_full.bo.ezmall.vn\logfile.log
+D:\SCrtips_8_7_2013\HPLOADRUNER 11\Scripts\mot_full.bo.ezmall.vn\combined_V0d3jAB2gkSf9wyThFZb9w==1.c
+D:\SCrtips_8_7_2013\HPLOADRUNER 11\Scripts\mot_full.bo.ezmall.vn\pre_cci.c
