@@ -13,7 +13,7 @@ user_pref("LoadRunner.Global.DontPromptOnEnter", false);
 user_pref("LoadRunner.Global.ShowAnimations", true);
 user_pref("LoadRunner.Global.ShowLineNumbers", true);
 user_pref("LoadRunner.Global.SidebarOnLeft", true);
-user_pref("LoadRunner.Global.SidebarWidth", 367);
+user_pref("LoadRunner.Global.SidebarWidth", 330);
 user_pref("LoadRunner.Global.ToolboxY", 0);
 user_pref("LoadRunner.RTS.iteration_number", 0);
 user_pref("LoadRunner.config.output_dir", "D:\\SCrtips_8_7_2013\\HPLOADRUNER 11\\Scripts\\mot_full.bo.ezmall.vn\\");
@@ -72,7 +72,7 @@ user_pref("extensions.enabledItems", "TruClient@hp.com:11.00,{972ce4c6-7e08-4474
 user_pref("extensions.lastAppVersion", "3.6.3");
 user_pref("extensions.update.enabled", false);
 user_pref("extensions.update.notifyUser", false);
-user_pref("idle.lastDailyNotification", 1375679177);
+user_pref("idle.lastDailyNotification", 1375934606);
 user_pref("intl.charsetmenu.browser.cache", "ISO-8859-1, UTF-8");
 user_pref("javascript.options.showInConsole", true);
 user_pref("keyword.enabled", false);

@@ -1,21 +1,21 @@
-Virtual User Script started at : 2013-08-08 09:21:24
+Virtual User Script started at : 2013-08-08 11:39:28
 Starting action vuser_init.
-TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/08 at 09:21:23 (1375928483.601s)
+TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/08 at 11:39:26 (1375936766.267s)
 
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Starting action Action.
-t=00001700ms: ** 1: Wait 3 seconds ** started    [MsgId: MMSG-204251]
-t=00004727ms: ** 1: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
-t=00004732ms: ** 2: Evaluate JS http= LR.getParam("http"); //window.alert(http);  ** started    [MsgId: MMSG-204251]
-t=00004777ms: ** 2: Evaluate JS http= LR.getParam("http"); //window.alert(http);  ** successfully completed    [MsgId: MMSG-204250]
-t=00004781ms: ** 3: Navigate to http ** started    [MsgId: MMSG-204251]
-t=00005529ms: ** 3: Navigate to "http://bo.ezstore.vn" ** successfully completed    [MsgId: MMSG-204250]
-t=00005545ms: ** 6: dang nhap ** started    [MsgId: MMSG-204251]
-t=00005587ms: ** 6.1: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
-t=00025080ms: Error -203246: ** 6.1: Type "demo" in Tên ??ng nh?p textbox ** failed - target object was not found.    [MsgId: MERR-203246]
-t=00025084ms: Error -203250: ** 6: dang nhap ** was aborted because of an error in another step    [MsgId: MERR-203250]
+t=00002721ms: ** 6: dang nhap ** started    [MsgId: MMSG-204251]
+t=00002780ms: ** 6: dang nhap ** successfully completed    [MsgId: MMSG-204250]
+t=00003024ms: ** 14: them moi Hang Hoa ** started    [MsgId: MMSG-204251]
+t=00003082ms: ** 14: them moi Hang Hoa ** successfully completed    [MsgId: MMSG-204250]
+t=00003126ms: ** 18: click them nhom hang hoa ** started    [MsgId: MMSG-204251]
+t=00003177ms: ** 18: click them nhom hang hoa ** successfully completed    [MsgId: MMSG-204250]
+t=00003183ms: ** 95: Wait 8 seconds ** started    [MsgId: MMSG-204251]
+t=00011401ms: ** 95: Wait 8 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00011406ms: ** 96: Click on Thông tin c?a hàng ** started    [MsgId: MMSG-204251]
+t=00036943ms: Error -203246: ** 96: Click on Thông tin c?a hàng ** failed - target object was not found.    [MsgId: MERR-203246]
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

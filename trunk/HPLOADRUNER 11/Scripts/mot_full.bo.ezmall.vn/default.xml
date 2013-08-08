@@ -72,14 +72,14 @@
       <step type="block" id="step:{9593c950-cd6b-4537-abde-0b136cd617c2}" action="Mouse Over" level="2" arguments="{}" index="18">
         <step type="testObject" testObject="testObj:{e1d63039-185c-462d-9166-7c90e3b59eb6}" id="step:{f8168ee8-f64b-4b21-94ef-43792a5ffbaa}" action="Mouse Over" level="3" index="1"/>
       </step>
-      <step type="testObject" testObject="testObj:{e0339004-26b4-49cc-946b-ab42b94428d8}" id="step:{a542f5a4-b2d6-4444-b83f-30a7d156715a}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:7,&quot;Y Coordinate&quot;:4}" index="19"/>
+      <step type="testObject" testObject="testObj:{5bcca3ea-c77d-4dbb-b275-65b37c6aff81}" id="step:{a542f5a4-b2d6-4444-b83f-30a7d156715a}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:7,&quot;Y Coordinate&quot;:4}" index="19"/>
       <step type="testObject" testObject="testObj:{c789864d-69eb-4008-a504-d5693d1d9122}" id="step:{a91d5f2e-5dd3-4d30-a1c4-1141c69cd4f2}" action="Mouse Down" level="2" arguments="{&quot;X Coordinate&quot;:188,&quot;Y Coordinate&quot;:48}" index="20"/>
       <step type="testObject" testObject="testObj:{c789864d-69eb-4008-a504-d5693d1d9122}" id="step:{45f49300-bc10-4377-88ce-b2df72cd5b79}" action="Mouse Up" level="2" arguments="{&quot;X Coordinate&quot;:202,&quot;Y Coordinate&quot;:65}" index="21"/>
       <step type="block" id="step:{72c7dcc1-ee4a-4285-b532-3284a6744d5d}" action="Mouse Over" level="2" arguments="{}" index="22">
         <step type="testObject" testObject="testObj:{8afd20e0-2624-48a4-baa5-e8db3826ad3d}" id="step:{43b0c9ea-c4e1-4eb6-9177-ff6f1f5605e6}" action="Mouse Over" level="2" index="1"/>
       </step>
       <step type="alternative" id="step:{ada0c614-2dec-46c9-bf0c-bcd1382d9bcf}" action="Select" level="1" activeStep="0" index="23">
-        <step type="testObject" testObject="testObj:{cbc6a014-2a0b-479d-abe9-913aec49a7c4}" id="step:{94dc70ac-f894-4adb-b481-dc5b1e96e6c2}" action="Select" level="43" arguments="{&quot;Text&quot;:&quot;\&quot;---Áo phông không cổ\&quot;&quot;}"/>
+        <step type="testObject" testObject="testObj:{289b6096-9141-4858-b9ec-10c1a2b0e2f8}" id="step:{94dc70ac-f894-4adb-b481-dc5b1e96e6c2}" action="Click" level="43" arguments="{}"/>
         <step type="testObject" testObject="testObj:{cbc6a014-2a0b-479d-abe9-913aec49a7c4}" id="step:{93d636de-de9f-412b-b7ed-bd1075cf5665}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:4}"/>
         <step type="testObject" testObject="testObj:{98525e6a-8096-4817-94cf-b9e9e5560854}" id="step:{2c094824-2b4b-4a04-9560-18f1ca9be3f6}" action="Click" level="43" arguments="{&quot;X Coordinate&quot;:42,&quot;Y Coordinate&quot;:11}"/>
       </step>
@@ -87,25 +87,25 @@
         <step type="testObject" testObject="testObj:{6b571dc7-c96a-4780-b7b4-b0a60263feab}" id="step:{ff658484-20e1-4228-8d95-b966cf626c79}" action="Mouse Over" level="3" index="1"/>
       </step>
       <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{7f3338b8-54e7-4236-b2ff-e61c5bb77748}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:83,&quot;Y Coordinate&quot;:13}" index="25"/>
-      <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{6c952f6e-f728-4271-a93a-069d783b257c}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;1\&quot;&quot;}" index="26"/>
+      <step type="testObject" testObject="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" id="step:{6c952f6e-f728-4271-a93a-069d783b257c}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;1\&quot;&quot;}" index="26"/>
       <step type="alternative" id="step:{1b8616e1-08cc-4eda-878f-161ebe68efc7}" action="Type" level="1" activeStep="0" index="27">
-        <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{4dcc56ca-1eb6-40ef-94e5-3ab8e2b2bd75}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;2\&quot;&quot;,&quot;Clear&quot;:false}"/>
+        <step type="testObject" testObject="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" id="step:{4dcc56ca-1eb6-40ef-94e5-3ab8e2b2bd75}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;2\&quot;&quot;,&quot;Clear&quot;:false}"/>
         <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{d5bf04cc-f6af-410a-a58f-65a2eeaede7b}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;12\&quot;&quot;}"/>
       </step>
       <step type="alternative" id="step:{d4a6e6fb-eacf-4c9e-958a-feb87dd0d5ee}" action="Type" level="1" activeStep="0" index="28">
-        <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{637cb541-4473-45a0-8692-1f70835ca906}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
+        <step type="testObject" testObject="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" id="step:{637cb541-4473-45a0-8692-1f70835ca906}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
         <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{5aa37bb1-0634-4296-91d6-824d461d1308}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;120\&quot;&quot;}"/>
       </step>
       <step type="alternative" id="step:{a4b51f37-e3cc-4a07-aab9-5070c68b85f7}" action="Type" level="1" activeStep="0" index="29">
-        <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{24345803-e346-4cc8-8c79-096bae702874}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
+        <step type="testObject" testObject="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" id="step:{24345803-e346-4cc8-8c79-096bae702874}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
         <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{b39be21d-efcf-40e3-a982-7bf49d39e007}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;1200\&quot;&quot;}"/>
       </step>
       <step type="alternative" id="step:{00ce2f78-2cab-4814-a023-92541663b8dd}" action="Type" level="1" activeStep="0" index="30">
-        <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{19f4fe2d-5e95-4ad1-9c2d-83fe6a814f16}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
+        <step type="testObject" testObject="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" id="step:{19f4fe2d-5e95-4ad1-9c2d-83fe6a814f16}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
         <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{bf3ebc31-1719-48d2-9c32-996b2c32d90d}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;12000\&quot;&quot;}"/>
       </step>
       <step type="alternative" id="step:{ce2df525-87c0-48b7-9af1-72514563cb87}" action="Type" level="1" activeStep="0" index="31">
-        <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{02ade414-b294-44fc-995f-45f9d0fb8d91}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
+        <step type="testObject" testObject="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" id="step:{02ade414-b294-44fc-995f-45f9d0fb8d91}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;0\&quot;&quot;,&quot;Clear&quot;:false}"/>
         <step type="testObject" testObject="testObj:{0f712dc6-5f53-4509-9f86-1cb161399349}" id="step:{66380eac-046b-402b-871d-d3f56b722030}" action="Type" level="43" arguments="{&quot;Value&quot;:&quot;\&quot;12.0000\&quot;&quot;}"/>
       </step>
       <step type="util" id="step:{346626ba-1896-438e-9712-7bfda0c210b6}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;4&quot;}" index="32"/>
@@ -144,7 +144,7 @@
         <step type="testObject" testObject="testObj:{05d8ddad-f1b2-47ef-b60b-a983ce77803b}" id="step:{2663b56e-6c3b-47c4-b73b-5670d31a4f85}" action="Mouse Over" level="2" index="1"/>
       </step>
       <step type="testObject" testObject="testObj:{94b9025c-5684-4291-940b-21542133493e}" id="step:{1e951e3a-4b8b-4910-95f3-1f3c0f7f76e1}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:25,&quot;Y Coordinate&quot;:14}" index="12"/>
-      <step type="testObject" testObject="testObj:{82bb6309-edce-4fe6-871e-5669a92379e4}" id="step:{3182b7e2-d453-4b91-ae55-28f9a19f3ce8}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;link kien may tinh\&quot;&quot;}" index="13"/>
+      <step type="testObject" testObject="testObj:{94b9025c-5684-4291-940b-21542133493e}" id="step:{3182b7e2-d453-4b91-ae55-28f9a19f3ce8}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;link kien may tinh\&quot;&quot;}" index="13"/>
       <step type="testObject" testObject="testObj:{8542dd71-f07c-4aa7-9ed6-30060738496a}" id="step:{65d3cb18-3212-487d-b117-c626d0adbc33}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:53,&quot;Y Coordinate&quot;:14}" index="14"/>
       <step type="util" id="step:{f388f505-1783-4776-8d07-3798fc02dc51}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="15"/>
     </step>
@@ -429,16 +429,16 @@
       <step type="testObject" testObject="testObj:{546bbf5a-a145-49ed-8599-ea2b49682046}" id="step:{ea06d81a-4f9a-444d-beae-f5a881ea2424}" action="Mouse Over" level="3" index="1"/>
     </step>
     <step type="util" id="step:{47c15885-51ca-46b1-92f8-b97e045b1dcd}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;5&quot;}" index="95"/>
-    <step type="testObject" testObject="testObj:{0083b543-1005-4896-b30e-8d75584cb3ea}" id="step:{6c451700-d8ac-4226-8a4a-2e1ecce51293}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:79,&quot;Y Coordinate&quot;:6}" index="96"/>
+    <step type="testObject" testObject="testObj:{4a3005cb-1d6c-4cba-b8fe-322e42676ae6}" id="step:{6c451700-d8ac-4226-8a4a-2e1ecce51293}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:79,&quot;Y Coordinate&quot;:6}" index="96"/>
     <step type="block" id="step:{598f72dc-e33e-460a-975b-26aef84aa625}" action="Mouse Over" level="2" arguments="{}" index="97">
       <step type="testObject" testObject="testObj:{bc22dba7-8f11-4cae-8067-80e5e0b32c5a}" id="step:{151ab612-1265-4741-9e82-da44d026a29e}" action="Mouse Over" level="3" index="1"/>
     </step>
     <step type="util" id="step:{9359163b-5783-4f1d-9f05-e66f97d1a567}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="98"/>
-    <step type="testObject" testObject="testObj:{8f21dd55-8184-43d9-974e-a6c236976d88}" id="step:{d65545c4-742e-4493-a49a-125e3c4b4431}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:55,&quot;Y Coordinate&quot;:8}" index="99"/>
+    <step type="testObject" testObject="testObj:{b2510fb8-1e95-4acb-b9a5-c9835bf0267e}" id="step:{d65545c4-742e-4493-a49a-125e3c4b4431}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:55,&quot;Y Coordinate&quot;:8}" index="99"/>
     <step type="block" id="step:{4e34106b-953c-4c34-9252-4f79b29c9eb2}" action="Mouse Over" level="2" arguments="{}" index="100">
       <step type="testObject" testObject="testObj:{546bbf5a-a145-49ed-8599-ea2b49682046}" id="step:{b9dc0c64-8790-422a-8506-3978341e6369}" action="Mouse Over" level="3" index="1"/>
     </step>
-    <step type="testObject" testObject="testObj:{24606c91-cf44-4e7f-8436-f1b11375401d}" id="step:{e430c43b-1ff6-471f-afd3-421874b624ef}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:60,&quot;Y Coordinate&quot;:10}" index="101"/>
+    <step type="testObject" testObject="testObj:{6c5e60b9-8813-4ad8-8e75-f0b3fa1217a9}" id="step:{e430c43b-1ff6-471f-afd3-421874b624ef}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:60,&quot;Y Coordinate&quot;:10}" index="101"/>
     <step type="block" id="step:{d3ee2e11-cf48-430c-a189-ddc0313ad724}" action="Mouse Over" level="2" arguments="{}" index="102">
       <step type="testObject" testObject="testObj:{546bbf5a-a145-49ed-8599-ea2b49682046}" id="step:{128e6c2f-7f38-433a-a74b-1d89c4170ad7}" action="Mouse Over" level="2" index="1"/>
       <step type="testObject" testObject="testObj:{98d0ae2b-f3cf-47fa-a956-afb6eff76994}" id="step:{868a6d50-8ca1-4da3-a403-e4774dc3502d}" action="Mouse Over" level="3" index="2"/>
@@ -2454,45 +2454,6 @@ setValue:function (value) {
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[5]/td"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{e0339004-26b4-49cc-946b-ab42b94428d8}" autoName="element (120)"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.51847687,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "style/background-image", "value" : "url(\"http://bo.ezmall.vn/media/images/IconTest/triagle_btn_15x13.png\")", "score" : 0.15 }, 
-		{ "id" : "dimensions", "value" : {"width":18,"height":15}, "score" : 0.15 }, 
-		{ "id" : "class", "value" : "z-combobox-btn", "score" : 0.15 }, 
-		{ "id" : "id", "value" : {"id":"Label_34-btn","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "tagName", "value" : "I", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":33,
-				"maxObjsPerElector":200,
-				"total":{
-						"leaf":null,
-						"style/background-image":null,
-						"dimensions":null,
-						"class":11,
-						"id":17,
-						"tagName":22
-				},
-				"secondaryScore":0.5184716852313,
-				"similarPrimaryScore":0.5184716852313,
-				"similarSecondaryScore":0.33121456282125,
-				"similarTotal":4,
-				"similarOrdinal":4,
-				"totalCandidates":10
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[3]/i/i"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{c789864d-69eb-4008-a504-d5693d1d9122}" autoName="Áo Phông    Áo ba lỗ..."><roles><role>element</role><role>focusable</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.538137676,
 "implData":{
@@ -3178,7 +3139,7 @@ setValue:function (value) {
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/div[2]/div[3]/table/tbody[2]/tr[1]/td[1]/div"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{b83da563-0f26-4039-9dd0-d54023b866aa}" autoName="Nhóm hàng hóa"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+}]]></ident></idents></testObject><testObject id="testObj:{b83da563-0f26-4039-9dd0-d54023b866aa}" autoName="Nhóm hàng hóa"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="XPath"><ident type="Electors"><![CDATA[{
 "primaryScore":0.55679878,
 "implData":{
 	"ctxScore":0.4,
@@ -3266,7 +3227,7 @@ setValue:function (value) {
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/div[2]/div[3]/table/tbody[2]/tr[3]/td[1]/div"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{94b9025c-5684-4291-940b-21542133493e}" autoName="textbox (12)"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+}]]></ident></idents></testObject><testObject id="testObj:{94b9025c-5684-4291-940b-21542133493e}" autoName="textbox (12)"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="XPath"><ident type="Electors"><![CDATA[{
 "primaryScore":0.5334724,
 "implData":{
 	"ctxScore":0.4,
@@ -8557,72 +8518,6 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"dQRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[1]/td"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{0083b543-1005-4896-b30e-8d75584cb3ea}" autoName="Thông tin cửa hàng"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":"Thông tin cửa hàng","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
-		{ "id" : "id", "value" : {"id":"Label_340-cave","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":130,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":1,
-						"class":3,
-						"id":5,
-						"tagName":129,
-						"leaf":null
-				},
-				"secondaryScore":0.41683633159500005,
-				"totalCandidates":4
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"dQRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[1]/td/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{24606c91-cf44-4e7f-8436-f1b11375401d}" autoName="Cấu hình cửa hàng"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":"Cấu hình cửa hàng","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "id", "value" : {"id":"Label_338-cave","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":69,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":1,
-						"id":7,
-						"class":65,
-						"tagName":253,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":7
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"dQRQ_\"]/div[1]/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[3]/td/div"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{98d0ae2b-f3cf-47fa-a956-afb6eff76994}" autoName="BẢNG TINCỬA HÀNGKHÁCH..."><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.31393,
 "contextObj":"testObj:{f7d16d17-4e04-4591-9192-5c5d448a9d7c}",
@@ -9100,46 +8995,7 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"iQRQ_\"]/div[1]/div/div[4]/div/div/div/div/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/div/div[2]"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{82bb6309-edce-4fe6-871e-5669a92379e4}" autoName="textbox (33)"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.5334724,
-"implData":{
-	"ctxScore":0.4,
-	"electors":[
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
-		{ "id" : "tagName", "value" : "TEXTAREA", "score" : 0.1 }, 
-		{ "id" : "class", "value" : "z-textbox", "score" : 0.15 }, 
-		{ "id" : "id", "value" : {"id":"Label_823","isValidWord":true}, "score" : 0.3 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":1,
-						"id":343,
-						"class":2,
-						"leaf":null,
-						"border":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div[2]/div[3]/table/tbody[2]/tr[3]/td[2]/div/textarea"
-}
-}]]></ident></idents><methods><![CDATA[{getValue:function () {
-    return this.object.value;
-},
-setValue:function (value) {
-    this.object.value = value;
-},
-}]]></methods></testObject><testObject id="testObj:{872f8afb-68fd-4024-be0b-97b0c6952ac9}" autoName="Nhóm hàng hóa"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="XPath"><ident type="Electors"><![CDATA[{
+}]]></ident></idents></testObject><testObject id="testObj:{872f8afb-68fd-4024-be0b-97b0c6952ac9}" autoName="Nhóm hàng hóa"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="XPath"><ident type="Electors"><![CDATA[{
 "primaryScore":0.55679878,
 "implData":{
 	"ctxScore":0.4,
@@ -9394,39 +9250,6 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"/html/body/div[4]/div[3]/div/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/span[4]/table/tbody/tr[2]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{8f21dd55-8184-43d9-974e-a6c236976d88}" autoName="Thiết bị pos"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Row_54-cave","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Thiết bị pos","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":131,
-				"maxObjsPerElector":200,
-				"total":{
-						"id":1,
-						"text":1,
-						"class":3,
-						"tagName":129,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"wNRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[2]/td/div"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{2f3c49a5-3fdb-419f-a14d-cc71e14a8eef}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.463915,
@@ -10704,11 +10527,11 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"RB003TurnoverWindow_1","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-hbox", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Mã vạch","tagName":"TABLE"}, "score" : 0.4 }, 
 		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"RB003TurnoverWindow_1","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "text", "value" : {"text":"Mã vạch","tagName":"TABLE"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-hbox", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -10738,10 +10561,10 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 		{ "id" : "id", "value" : {"id":"RB003TurnoverWindow_1-real","isValidWord":true}, "score" : 0.3 }, 
 		{ "id" : "text", "value" : {"text":"Mã vạch","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -10781,10 +10604,10 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0.2,
 	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Tên sản phẩm *","tagName":"TR"}, "score" : 0.4 }, 
 		{ "id" : "tr/cols", "value" : 5, "score" : 0.05 }, 
 		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "text", "value" : {"text":"Tên sản phẩm *","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -10848,6 +10671,443 @@ setValue:function (value) {
 setValue:function (value) {
     this.object.value = value;
 },
-}]]></methods></testObject></testObjects>
+}]]></methods></testObject><testObject id="testObj:{b27ed310-4d76-46cb-81a1-bacd0f663678}"><roles><role>element</role><role>decorator</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.48681964,
+"implData":{
+	"ctxScore":0.4,
+	"electors":[
+		{ "id" : "class", "value" : "z-combobox z-combobox-real-readonly", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "I", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Div_56","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":98,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":22,
+						"id":67,
+						"class":11,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[3]/i"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{5bcca3ea-c77d-4dbb-b275-65b37c6aff81}" autoName="element (246)"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.5184768700000001,
+"contextObj":"testObj:{b27ed310-4d76-46cb-81a1-bacd0f663678}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "I", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Div_56-btn","isValidWord":false}, "score" : 0.2 }, 
+		{ "id" : "class", "value" : "z-combobox-btn", "score" : 0.15 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "style/background-image", "value" : "url(\"http://bo.ezstore.vn/media/images/IconTest/triagle_btn_15x13.png\")", "score" : 0.15 }, 
+		{ "id" : "dimensions", "value" : {"width":18,"height":15}, "score" : 0.15 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":28,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":22,
+						"id":3,
+						"class":11,
+						"leaf":null,
+						"style/background-image":null,
+						"dimensions":null
+				},
+				"secondaryScore":0.33121456282125,
+				"totalCandidates":7
+		},
+		"testObj:{b27ed310-4d76-46cb-81a1-bacd0f663678}":{
+				"totalObjs":1,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":1,
+						"id":1,
+						"class":1,
+						"leaf":null,
+						"style/background-image":null,
+						"dimensions":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[3]/i/i"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}" autoName="000001 000002 000006..."><roles><role>element</role><role>focusable</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.538137676,
+"implData":{
+	"ctxScore":0.7,
+	"electors":[
+		{ "id" : "id", "value" : {"id":"Div_56-pp","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-combobox-pp z-combobox-shadow", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
+		{ "id" : "position", "value" : "absolute", "score" : 0.1 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":11,
+				"maxObjsPerElector":200,
+				"total":{
+						"id":1,
+						"class":11,
+						"tagName":596,
+						"leaf":null,
+						"border":null,
+						"position":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[4]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{289b6096-9141-4858-b9ec-10c1a2b0e2f8}" autoName="Áo phông không cổ"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.520345,
+"contextObj":"testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "text", "value" : {"text":" Áo phông không cổ","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-comboitem-text", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":3,
+				"maxObjsPerElector":200,
+				"total":{
+						"text":3,
+						"class":265,
+						"tagName":1044,
+						"leaf":null
+				},
+				"secondaryScore":0.52033979655,
+				"similarPrimaryScore":0.52033979655,
+				"similarSecondaryScore":0,
+				"similarTotal":3,
+				"similarOrdinal":3,
+				"totalCandidates":3
+		},
+		"testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}":{
+				"totalObjs":114,
+				"maxObjsPerElector":200,
+				"total":{
+						"text":1,
+						"class":57,
+						"tagName":114,
+						"leaf":null
+				},
+				"secondaryScore":0.20057299425000003,
+				"totalCandidates":57
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[4]/table/tbody/tr[20]/td[2]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{4528c02d-e161-4d6a-a735-1056b77260f1}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.463915,
+"implData":{
+	"ctxScore":0.2,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"Giá nhập","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
+		{ "id" : "tr/cols", "value" : 3, "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":2,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":465,
+						"text":2,
+						"tr/cols":null,
+						"leaf":null
+				},
+				"secondaryScore":0.19385520428571432,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[5]/td/div/div[2]/div[1]/div/table[1]/tbody/tr/td/table/tbody/tr"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{ce0ba26a-15bf-438b-abdb-b052b9c1375a}" autoName="Giá nhập"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="XPath"><ident type="Electors"><![CDATA[{
+"primaryScore":0.55679878,
+"contextObj":"testObj:{4528c02d-e161-4d6a-a735-1056b77260f1}",
+"implData":{
+	"ctxScore":0.4,
+	"electors":[
+		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
+		{ "id" : "class", "value" : "z-textbox", "score" : 0.15 }, 
+		{ "id" : "input/type", "value" : "text", "score" : 0.05 }, 
+		{ "id" : "id", "value" : {"id":"Label_52","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":52,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":31,
+						"id":338,
+						"class":11,
+						"input/type":24,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0.42064779348,
+				"totalCandidates":8
+		},
+		"testObj:{4528c02d-e161-4d6a-a735-1056b77260f1}":{
+				"totalObjs":3,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":1,
+						"id":3,
+						"class":1,
+						"input/type":1,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[5]/td/div/div[2]/div[1]/div/table[1]/tbody/tr/td/table/tbody/tr/td[3]/input"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function () {
+    return this.object.value;
+},
+setValue:function (value) {
+    this.object.value = value;
+},
+}]]></methods></testObject><testObject id="testObj:{b2510fb8-1e95-4acb-b9a5-c9835bf0267e}" autoName="Thiết bị pos"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043000000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Label_171-cave","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Thiết bị pos","tagName":"DIV"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":133,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":131,
+						"id":4,
+						"class":3,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0.416836331595,
+				"totalCandidates":3
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"nRRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[2]/td/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{6c5e60b9-8813-4ad8-8e75-f0b3fa1217a9}" autoName="Cấu hình cửa hàng"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"Cấu hình cửa hàng","tagName":"DIV"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
+		{ "id" : "id", "value" : {"id":"Label_1073-cave","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":133,
+				"maxObjsPerElector":200,
+				"total":{
+						"text":1,
+						"class":3,
+						"id":4,
+						"tagName":131,
+						"leaf":null
+				},
+				"secondaryScore":0.41683633159500005,
+				"totalCandidates":3
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"nRRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[3]/td/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{cd105b54-3888-4896-8215-e42b6a862b01}"><roles><role>element</role><role>listitem</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6810294249999999,
+"implData":{
+	"ctxScore":0.2,
+	"electors":[
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
+		{ "id" : "id", "value" : {"id":"Row_77","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-listitem", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Thông tin cửa hàng","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "tr/cols", "value" : 1, "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":91,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":76,
+						"id":14,
+						"class":3,
+						"text":1,
+						"tr/cols":null,
+						"leaf":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"uTRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[1]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{63c1f0f8-b4d8-4fcf-9390-8cba01d32eb9}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.7045325199999999,
+"contextObj":"testObj:{cd105b54-3888-4896-8215-e42b6a862b01}",
+"implData":{
+	"ctxScore":0.4,
+	"electors":[
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "id", "value" : {"id":"Label_901","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-listcell", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Thông tin cửa hàng","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":192,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":152,
+						"id":41,
+						"class":3,
+						"text":1,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0.5075491244579999,
+				"totalCandidates":2
+		},
+		"testObj:{cd105b54-3888-4896-8215-e42b6a862b01}":{
+				"totalObjs":1,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":1,
+						"id":1,
+						"class":1,
+						"text":1,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"uTRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[1]/td"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{4a3005cb-1d6c-4cba-b8fe-322e42676ae6}" autoName="Thông tin cửa hàng"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"Thông tin cửa hàng","tagName":"DIV"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
+		{ "id" : "id", "value" : {"id":"Label_901-cave","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":133,
+				"maxObjsPerElector":200,
+				"total":{
+						"text":1,
+						"class":3,
+						"id":4,
+						"tagName":131,
+						"leaf":null
+				},
+				"secondaryScore":0.41683633159500005,
+				"totalCandidates":3
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"uTRQ_\"]/div/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[1]/td/div"
+}
+}]]></ident></idents></testObject></testObjects>
 <transactions/>
 </truScript>
