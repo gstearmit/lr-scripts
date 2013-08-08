@@ -1,0 +1,60 @@
+Virtual User Script started at : 2013-08-07 16:14:04
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/07 at 16:14:03 (1375866843.080s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00001572ms: ** 1: Wait 3 seconds ** started    [MsgId: MMSG-204251]
+t=00004623ms: ** 1: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00004630ms: ** 2: Evaluate JS http = LR.getParam("http"); //window.alert(http);  ** started    [MsgId: MMSG-204251]
+t=00004707ms: ** 2: Evaluate JS http = LR.getParam("http"); //window.alert(http);  ** successfully completed    [MsgId: MMSG-204250]
+t=00004712ms: ** 3: Navigate to http ** started    [MsgId: MMSG-204251]
+t=00013755ms: ** 3: Navigate to "http://bo.ezstore.vn" ** successfully completed    [MsgId: MMSG-204250]
+t=00013773ms: ** 6: dang nhap ** started    [MsgId: MMSG-204251]
+t=00013798ms: ** 6.1: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
+t=00015954ms: ** 6.1: Type "demo" in Tên ??ng nh?p textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00015959ms: ** 6.3: Type ????????? in M?t kh?u passwordbox ** started    [MsgId: MMSG-204251]
+t=00018624ms: ** 6.3: Type ????????? in M?t kh?u passwordbox ** successfully completed    [MsgId: MMSG-204250]
+t=00018629ms: ** 6.5: Type "10002" in Mã c?a hàng textbox ** started    [MsgId: MMSG-204251]
+t=00020905ms: ** 6.5: Type "10002" in Mã c?a hàng textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00020910ms: ** 6.6: Click on ??ng nh?p gridcell ** started    [MsgId: MMSG-204251]
+t=00021609ms: ** 6.6: Click on ??ng nh?p gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00021647ms: ** 6: dang nhap ** successfully completed    [MsgId: MMSG-204250]
+t=00021653ms: ** 8: Wait 4 seconds ** started    [MsgId: MMSG-204251]
+t=00025690ms: ** 8: Wait 4 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00025696ms: ** 9: Click on button (2) button ** started    [MsgId: MMSG-204251]
+t=00026376ms: ** 9: Click on button (2) button ** successfully completed    [MsgId: MMSG-204250]
+t=00026381ms: ** 10: Wait 6 seconds ** started    [MsgId: MMSG-204251]
+t=00032425ms: ** 10: Wait 6 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00032430ms: ** 12: Click on C?A HÀNG ** started    [MsgId: MMSG-204251]
+t=00033189ms: ** 12: Click on C?A HÀNG ** successfully completed    [MsgId: MMSG-204250]
+t=00033194ms: ** 13: Wait 4 seconds ** started    [MsgId: MMSG-204251]
+t=00037206ms: ** 13: Wait 4 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00037464ms: ** 14: them moi Hang Hoa ** started    [MsgId: MMSG-204251]
+t=00037512ms: ** 14.1: Click on Hàng hóa ** started    [MsgId: MMSG-204251]
+t=00038144ms: ** 14.1: Click on Hàng hóa ** successfully completed    [MsgId: MMSG-204250]
+t=00038148ms: ** 14.3: Evaluate JS ma_vach_hang_hoa = LR.getParam("ma_vach_hang_hoa");  ** started    [MsgId: MMSG-204251]
+t=00038253ms: ** 14.3: Evaluate JS ma_vach_hang_hoa = LR.getParam("ma_vach_hang_hoa");  ** successfully completed    [MsgId: MMSG-204250]
+t=00038258ms: ** 14.4: Evaluate JS ten_san_pham = LR.getParam("ten_san_pham"); ** started    [MsgId: MMSG-204251]
+t=00038343ms: ** 14.4: Evaluate JS ten_san_pham = LR.getParam("ten_san_pham"); ** successfully completed    [MsgId: MMSG-204250]
+t=00038347ms: ** 14.5: Wait 4 seconds ** started    [MsgId: MMSG-204251]
+t=00042425ms: ** 14.5: Wait 4 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00042429ms: ** 14.6: Click on Thêm m?i gridcell ** started    [MsgId: MMSG-204251]
+t=00043144ms: ** 14.6: Click on Thêm m?i gridcell ** successfully completed    [MsgId: MMSG-204250]
+t=00043148ms: ** 14.8: Type ma_vach_hang_hoa in Mã v?ch textbox ** started    [MsgId: MMSG-204251]
+t=00046394ms: ** 14.8: Type "000033" in Mã v?ch textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00046399ms: ** 14.10: Type ten_san_pham in Tên s?n ph?m textbox ** started    [MsgId: MMSG-204251]
+t=00049426ms: ** 14.10: Type "0000004" in Tên s?n ph?m textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00049431ms: ** 14.12: Type "1" in Giá bán textbox ** started    [MsgId: MMSG-204251]
+t=00050348ms: ** 14.12: Type "1" in Giá bán textbox ** successfully completed    [MsgId: MMSG-204250]
+t=00050369ms: ** 14.13: Type "3" in Giá bán textbox ** started    [MsgId: MMSG-204251]
+t=00230381ms: Error -203250: ** 14.13: Type "3" in Giá bán textbox ** timed out    [MsgId: MERR-203250]
+t=00230395ms: Error -203250: ** 14: them moi Hang Hoa ** was aborted because of an error in another step    [MsgId: MERR-203250]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
