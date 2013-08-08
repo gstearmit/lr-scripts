@@ -30,7 +30,7 @@ user_pref("app.update.enabled", false);
 user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1375928475);
 user_pref("app.update.lastUpdateTime.background-update-timer", 1375928394);
 user_pref("app.update.lastUpdateTime.blocklist-background-update-timer", 1375928502);
-user_pref("app.update.lastUpdateTime.microsummary-generator-update-timer", 1375349427);
+user_pref("app.update.lastUpdateTime.microsummary-generator-update-timer", 1375954729);
 user_pref("app.update.lastUpdateTime.places-maintenance-timer", 1375928422);
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1375349280);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);

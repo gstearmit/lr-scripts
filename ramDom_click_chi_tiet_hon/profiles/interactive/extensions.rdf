@@ -2,27 +2,30 @@
 <RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="urn:mozilla:item:TruClient@hp.com"
-                   NS1:installLocation="app-profile"
-                   NS1:version="11.00"
-                   NS1:iconURL="chrome://TruClientUI/content/ui/images/logo.png"
-                   NS1:name="HP LoadRunner VuGen for TruClient"
-                   NS1:description="An advanced protocol for modern JavaScript based applications (including Ajax) emulating user activity within a web browser."
-                   NS1:creator="HP">
+  <RDF:Description RDF:about="urn:mozilla:item:{20a82645-c095-46ed-80e3-08825760534b}"
+                   NS1:installLocation="winreg-app-global"
+                   NS1:version="1.0"
+                   NS1:optionsURL="chrome://dotnetassistant/content/options.xul"
+                   NS1:name="Microsoft .NET Framework Assistant"
+                   NS1:description="Adds ClickOnce support and the ability to report installed .NET versions to the web server."
+                   NS1:creator="Microsoft"
+                   NS1:homepageURL="http://www.windowsclient.net/"
+                   NS1:appDisabled="true">
     <NS1:type NC:parseType="Integer">2</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$nZoxs"/>
+    <NS1:targetApplication RDF:resource="rdf:#$g.phE2"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$CZoxs"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.6.3"
-                   NS1:maxVersion="3.6.3" />
-  <RDF:Description RDF:about="rdf:#$nZoxs"
+  <RDF:Description RDF:about="rdf:#$s.phE2"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="3.6"
                    NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$H.phE2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6.3"
+                   NS1:maxVersion="3.6.3" />
   <RDF:Seq RDF:about="urn:mozilla:item:root">
     <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
     <RDF:li RDF:resource="urn:mozilla:item:TruClient@hp.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{20a82645-c095-46ed-80e3-08825760534b}"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
                    NS1:installLocation="app-global"
@@ -35,6 +38,20 @@
                    NS1:creator="Mozilla"
                    NS1:contributor="Mozilla Contributors">
     <NS1:type NC:parseType="Integer">4</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$CZoxs"/>
+    <NS1:targetApplication RDF:resource="rdf:#$H.phE2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$g.phE2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:TruClient@hp.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="11.00"
+                   NS1:iconURL="chrome://TruClientUI/content/ui/images/logo.png"
+                   NS1:name="HP LoadRunner VuGen for TruClient"
+                   NS1:description="An advanced protocol for modern JavaScript based applications (including Ajax) emulating user activity within a web browser."
+                   NS1:creator="HP">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$s.phE2"/>
   </RDF:Description>
 </RDF:RDF>
