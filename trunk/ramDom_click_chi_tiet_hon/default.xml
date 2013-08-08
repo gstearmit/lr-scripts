@@ -2,27 +2,29 @@
 <step type="block" id="step:{d75bbc60-9f6f-4167-8a2b-3d4e9fe32373}" action="block" level="1" arguments="{&quot;comment&quot;:&quot;TopStep&quot;}">
   <step type="block" id="step:{69b3cc6f-7239-4427-aac3-3a606c06539a}" action="action" level="43" arguments="{&quot;comment&quot;:&quot;Init Container&quot;}"/>
   <step type="block" id="step:{86f5dfdc-2813-4366-864f-6a11a3f1ce26}" action="action" level="43" arguments="{&quot;comment&quot;:&quot;Action Container&quot;}">
-    <step type="testObject" testObject="testObj:{af5abab9-fe18-428b-9b30-c0e0866d3fb5}" id="step:{9704c0ec-c4d0-4c9a-b845-2034101047ec}" action="Navigate" level="1" arguments="{&quot;Location&quot;:&quot;\&quot;http://bo.ezmall.vn/\&quot;&quot;}" index="1"/>
-    <step type="block" id="step:{fd6f3f82-d197-46b4-a173-a0dedf7a403e}" action="Mouse Over" level="3" arguments="{}" index="2">
+    <step type="util" id="step:{96788866-71c8-419a-8903-e915d2e77393}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="1"/>
+    <step type="util" id="step:{b54a9229-02fe-4c96-9cc9-f6128f8ec00a}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;http=LR.getParam(\&quot;http\&quot;);\u000a//window.alert(http);\u000a&quot;}" index="2"/>
+    <step type="testObject" testObject="testObj:{af5abab9-fe18-428b-9b30-c0e0866d3fb5}" id="step:{9704c0ec-c4d0-4c9a-b845-2034101047ec}" action="Navigate" level="1" arguments="{&quot;Location&quot;:&quot;http&quot;}" index="3"/>
+    <step type="block" id="step:{fd6f3f82-d197-46b4-a173-a0dedf7a403e}" action="Mouse Over" level="3" arguments="{}" index="4">
       <step type="testObject" testObject="testObj:{aeb061eb-40ca-458b-b324-43e697550c26}" id="step:{af096a34-07ac-49ee-9e7c-68873d11b980}" action="Mouse Over" level="3" index="1"/>
     </step>
-    <step type="testObject" testObject="testObj:{c841fc9a-7dbd-49a3-8a44-a27f2e815f10}" id="step:{f6784dd1-0c99-467f-afc7-41151d1c253b}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:27,&quot;Y Coordinate&quot;:5}" index="3"/>
-    <step type="testObject" testObject="testObj:{c841fc9a-7dbd-49a3-8a44-a27f2e815f10}" id="step:{c02c3869-add0-400e-8dd9-890354676655}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;demo\&quot;&quot;}" index="4"/>
-    <step type="testObject" testObject="testObj:{637fcb57-7bf7-457d-8c13-2e67b36ee16e}" id="step:{76c42559-6048-460a-a4dd-715c70bc5c1f}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;mbh2012\&quot;&quot;}" index="5"/>
-    <step type="testObject" testObject="testObj:{39910abf-677c-44b3-8cb3-541beed79f38}" id="step:{e1b0cded-d00e-489d-907c-04757eebdaf7}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;10002\&quot;&quot;}" index="6"/>
-    <step type="testObject" testObject="testObj:{f1d2ac3e-5f5a-4b57-a652-1e6bed311ef2}" id="step:{5a64e368-6c08-42c6-a859-305de632c30b}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:48,&quot;Y Coordinate&quot;:22}" index="7"/>
-    <step type="block" id="step:{b2aeac67-ba75-4d94-b042-39827e82edac}" action="Mouse Over" level="2" arguments="{}" index="8">
+    <step type="testObject" testObject="testObj:{c841fc9a-7dbd-49a3-8a44-a27f2e815f10}" id="step:{f6784dd1-0c99-467f-afc7-41151d1c253b}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:27,&quot;Y Coordinate&quot;:5}" index="5"/>
+    <step type="testObject" testObject="testObj:{c841fc9a-7dbd-49a3-8a44-a27f2e815f10}" id="step:{c02c3869-add0-400e-8dd9-890354676655}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;demo\&quot;&quot;}" index="6"/>
+    <step type="testObject" testObject="testObj:{637fcb57-7bf7-457d-8c13-2e67b36ee16e}" id="step:{76c42559-6048-460a-a4dd-715c70bc5c1f}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;mbh2012\&quot;&quot;}" index="7"/>
+    <step type="testObject" testObject="testObj:{39910abf-677c-44b3-8cb3-541beed79f38}" id="step:{e1b0cded-d00e-489d-907c-04757eebdaf7}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;10002\&quot;&quot;}" index="8"/>
+    <step type="testObject" testObject="testObj:{f1d2ac3e-5f5a-4b57-a652-1e6bed311ef2}" id="step:{5a64e368-6c08-42c6-a859-305de632c30b}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:48,&quot;Y Coordinate&quot;:22}" index="9"/>
+    <step type="block" id="step:{b2aeac67-ba75-4d94-b042-39827e82edac}" action="Mouse Over" level="2" arguments="{}" index="10">
       <step type="testObject" testObject="testObj:{1149e93b-0874-4750-b1da-31cc9471ef87}" id="step:{8e504e6e-ee15-4237-80d8-f7f4d8348afe}" action="Mouse Over" level="2" index="1"/>
       <step type="testObject" testObject="testObj:{c4a5ab8f-593e-49d2-8546-0c012a9cc32c}" id="step:{2303a904-231d-490e-99ed-3e595ba0a3bc}" action="Mouse Over" level="3" index="2"/>
     </step>
-    <step type="util" id="step:{55eb79f1-3a0a-43ef-9a68-78686aa2927b}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;4&quot;}" index="9"/>
-    <step type="testObject" testObject="testObj:{6855d142-4bd7-4020-ba11-6ba0fe7a58d0}" id="step:{63bcac11-59df-47a9-88b3-89e9e16fe6bb}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:44,&quot;Y Coordinate&quot;:45}" index="10"/>
-    <step type="block" id="step:{143d143d-b2ea-45ac-8619-ef91ab5dae43}" action="Mouse Over" level="2" arguments="{}" index="11">
+    <step type="util" id="step:{55eb79f1-3a0a-43ef-9a68-78686aa2927b}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;4&quot;}" index="11"/>
+    <step type="testObject" testObject="testObj:{6855d142-4bd7-4020-ba11-6ba0fe7a58d0}" id="step:{63bcac11-59df-47a9-88b3-89e9e16fe6bb}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:44,&quot;Y Coordinate&quot;:45}" index="12"/>
+    <step type="block" id="step:{143d143d-b2ea-45ac-8619-ef91ab5dae43}" action="Mouse Over" level="2" arguments="{}" index="13">
       <step type="testObject" testObject="testObj:{a0320890-366f-4e0c-a073-bb97023b770c}" id="step:{2e17cd53-f69b-4a85-b4a4-8dba393e403b}" action="Mouse Over" level="2" index="1"/>
     </step>
-    <step type="util" id="step:{20c14306-b891-4306-8400-98eee357e2d5}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;var x = Math.floor (11 * Math.random () +5);\u000awindow.alert(x);\u000a\u000a&quot;}" index="12"/>
-    <step type="util" id="step:{02160693-3aab-4851-b721-c70c1d39bb6a}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;6&quot;}" index="13"/>
-    <step type="control" id="step:{ee482a51-9a71-4032-9693-8b55721d9063}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==5&quot;,&quot;condition&quot;:true}" index="14">
+    <step type="util" id="step:{20c14306-b891-4306-8400-98eee357e2d5}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;var x = Math.floor (11 * Math.random () +5);\u000awindow.alert(x);\u000a\u000a&quot;}" index="14"/>
+    <step type="util" id="step:{02160693-3aab-4851-b721-c70c1d39bb6a}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;6&quot;}" index="15"/>
+    <step type="control" id="step:{ee482a51-9a71-4032-9693-8b55721d9063}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==5&quot;,&quot;condition&quot;:true}" index="16">
       <step type="block" id="step:{1b02be77-b1c2-4870-895d-43166531b421}" action="internal" level="43" arguments="{}">
         <step type="block" id="step:{8764bf15-3b9f-4d6e-a189-d0e5b715e420}" action="Click Chon Cua hang" level="1" index="1">
           <step type="testObject" testObject="testObj:{fbd703cc-ba92-488f-aaca-1a9f2ca6f745}" id="step:{0f14ce85-e7cd-4023-890a-1d4622a42a32}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:36,&quot;Y Coordinate&quot;:7}" index="1"/>
@@ -192,7 +194,7 @@
         </step>
       </step>
     </step>
-    <step type="control" id="step:{924ef5ff-b43f-46b0-9c20-ec5f1b4a7340}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==6&quot;,&quot;condition&quot;:true}" index="15">
+    <step type="control" id="step:{924ef5ff-b43f-46b0-9c20-ec5f1b4a7340}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==6&quot;,&quot;condition&quot;:true}" index="17">
       <step type="block" id="step:{9457accd-4890-4a53-9105-fb0ecfba06ce}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{7f82ceb3-8413-4d47-b506-21dfcf7ff4ae}" id="step:{5602e78b-7aff-4146-b291-9620cb30ae2a}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:36,&quot;Y Coordinate&quot;:7}" index="1"/>
         <step type="util" id="step:{546f09b0-79b4-4983-b5b6-d375dd7991b1}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;ma_khach_hang = LR.getParam(\&quot;ma_khach_hang\&quot;);&quot;}" index="2"/>
@@ -233,7 +235,7 @@
         </step>
       </step>
     </step>
-    <step type="control" id="step:{159ad3d0-0c35-4d24-9da7-554fb93c4fb7}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==7&quot;,&quot;condition&quot;:true}" index="16">
+    <step type="control" id="step:{159ad3d0-0c35-4d24-9da7-554fb93c4fb7}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==7&quot;,&quot;condition&quot;:true}" index="18">
       <step type="block" id="step:{5b68093e-4531-4914-b6d0-a5434b662af2}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{e35a1cba-ab5e-4bfa-8862-fe4e103f5941}" id="step:{f0a188ac-3f6c-49ca-b39c-90705aa10fd9}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:43,&quot;Y Coordinate&quot;:8}" index="1"/>
         <step type="util" id="step:{3b731f2e-2d4c-47cd-8fec-20f37ff58a2d}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
@@ -286,7 +288,7 @@
         </step>
       </step>
     </step>
-    <step type="control" id="step:{5aa91ab1-49e2-4c03-a6e5-0d445a0a5c9c}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==8&quot;,&quot;condition&quot;:true}" index="17">
+    <step type="control" id="step:{5aa91ab1-49e2-4c03-a6e5-0d445a0a5c9c}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==8&quot;,&quot;condition&quot;:true}" index="19">
       <step type="block" id="step:{f5c2e7e7-26e1-463a-9d55-0d5007076f5a}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{50678c4b-7bc1-4bd5-8bc1-0235530e5f93}" id="step:{10cc06a6-a366-4dc1-91d5-104624fdf24b}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:40,&quot;Y Coordinate&quot;:7}" index="1"/>
         <step type="util" id="step:{c14e84c8-87db-45ed-8c0f-df68922ac3d1}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
@@ -336,7 +338,7 @@
         </step>
       </step>
     </step>
-    <step type="control" id="step:{ec4e9f2d-0de8-4264-9ca4-a4a8293af83e}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==9&quot;,&quot;condition&quot;:true}" index="18">
+    <step type="control" id="step:{ec4e9f2d-0de8-4264-9ca4-a4a8293af83e}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==9&quot;,&quot;condition&quot;:true}" index="20">
       <step type="block" id="step:{e4f9fde2-b1c8-47ba-aefc-e0c92e5c7f8a}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{cbe03871-3021-478d-ac48-6a362e20b746}" id="step:{4b5fc55c-491e-4f48-8411-9e92348b483a}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:34,&quot;Y Coordinate&quot;:6}" index="1"/>
         <step type="block" id="step:{abdda7eb-f7a0-494a-b2f2-62251b508fae}" action="Mouse Over" level="2" arguments="{}" index="2">
@@ -377,13 +379,13 @@
         <step type="testObject" testObject="testObj:{99217182-3302-41dd-806e-19bfbc19028f}" id="step:{c1aeceb3-4e41-4251-9673-2777f03b03e6}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:41,&quot;Y Coordinate&quot;:50}" index="16"/>
       </step>
     </step>
-    <step type="control" id="step:{0becdfee-b5ed-42f1-900d-d47c5bd31814}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==10&quot;,&quot;condition&quot;:true}" index="19">
+    <step type="control" id="step:{0becdfee-b5ed-42f1-900d-d47c5bd31814}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==10&quot;,&quot;condition&quot;:true}" index="21">
       <step type="block" id="step:{7e53cda2-6d8e-40b0-97a9-cb521d85c371}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{289f89b7-430b-452c-a5ef-4ac2cbaa50a5}" id="step:{4ec5d976-47e9-4bae-bc2b-9426cc9635a2}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:42,&quot;Y Coordinate&quot;:5}" index="1"/>
         <step type="util" id="step:{1798bb28-b588-43b6-9dfb-b95b6fe1e56f}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
       </step>
     </step>
-    <step type="control" id="step:{2a0a5899-b259-4164-9e40-3e7d0e7879c9}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==11&quot;,&quot;condition&quot;:true}" index="20">
+    <step type="control" id="step:{2a0a5899-b259-4164-9e40-3e7d0e7879c9}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==11&quot;,&quot;condition&quot;:true}" index="22">
       <step type="block" id="step:{03f92b10-c33f-4c74-bbfc-9d12a80269cf}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{6cee2928-8d26-4534-9700-3f896f229b6d}" id="step:{dbca8c48-8e7a-4bb6-8355-f524fbd6a2ec}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:36,&quot;Y Coordinate&quot;:6}" index="1"/>
         <step type="util" id="step:{52dba3ff-4e9c-4fba-832c-58614febfa59}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
@@ -411,13 +413,13 @@
         <step type="testObject" testObject="testObj:{35dcfda8-49eb-46ee-bb98-9a9869862a98}" id="step:{fbd20e4d-1c25-4b2e-b7ca-61eda78150aa}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:76,&quot;Y Coordinate&quot;:10}" index="13"/>
       </step>
     </step>
-    <step type="control" id="step:{124108d6-8fec-4b76-a111-4a0392bef524}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==12&quot;,&quot;condition&quot;:true}" index="21">
+    <step type="control" id="step:{124108d6-8fec-4b76-a111-4a0392bef524}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==12&quot;,&quot;condition&quot;:true}" index="23">
       <step type="block" id="step:{53756fcc-b951-4da0-9ab8-868e1c9ddf74}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{6626ccf0-3742-45b0-bb37-5e1b61131202}" id="step:{56b267b7-ec6e-4a75-aedd-0ce36a39ab22}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:38,&quot;Y Coordinate&quot;:4}" index="1"/>
         <step type="util" id="step:{dbf0bdf7-a509-4266-8402-e19206110cb1}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
       </step>
     </step>
-    <step type="control" id="step:{bffd7a35-b275-4f0a-ba20-a60b798aef34}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==13&quot;,&quot;condition&quot;:true}" index="22">
+    <step type="control" id="step:{bffd7a35-b275-4f0a-ba20-a60b798aef34}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==13&quot;,&quot;condition&quot;:true}" index="24">
       <step type="block" id="step:{74d06ae4-1428-46ec-bcf0-bf600e69c48b}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{6cee2928-8d26-4534-9700-3f896f229b6d}" id="step:{2f971f62-d1ca-4395-92ff-aaa804c3d4a8}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:36,&quot;Y Coordinate&quot;:6}" index="1"/>
         <step type="util" id="step:{4ede92fe-dc9c-41f7-8bda-dedf058d5fdd}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
@@ -445,13 +447,13 @@
         <step type="testObject" testObject="testObj:{35dcfda8-49eb-46ee-bb98-9a9869862a98}" id="step:{1dfdeddc-8a2a-47cc-a1c3-a7a499d94649}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:76,&quot;Y Coordinate&quot;:10}" index="13"/>
       </step>
     </step>
-    <step type="control" id="step:{8e37b3bb-0d2e-45b4-8c20-31f796035410}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==14&quot;,&quot;condition&quot;:true}" index="23">
+    <step type="control" id="step:{8e37b3bb-0d2e-45b4-8c20-31f796035410}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==14&quot;,&quot;condition&quot;:true}" index="25">
       <step type="block" id="step:{52f09d4a-edd6-493d-857c-2906a29e24e0}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{289f89b7-430b-452c-a5ef-4ac2cbaa50a5}" id="step:{77febd7c-f8a0-4656-ae12-7ea9e3ae96d3}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:42,&quot;Y Coordinate&quot;:5}" index="1"/>
         <step type="util" id="step:{b184b1c3-a364-4834-bee8-20e2ac070c63}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
       </step>
     </step>
-    <step type="control" id="step:{c8df02d8-737d-4c53-9039-46581be380d2}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==15&quot;,&quot;condition&quot;:true}" index="24">
+    <step type="control" id="step:{c8df02d8-737d-4c53-9039-46581be380d2}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==15&quot;,&quot;condition&quot;:true}" index="26">
       <step type="block" id="step:{069e7da1-f25e-403b-9862-ad4bbac7e0ab}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{50678c4b-7bc1-4bd5-8bc1-0235530e5f93}" id="step:{e31e6621-be4b-4157-a6bc-83e0a452a4ef}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:40,&quot;Y Coordinate&quot;:7}" index="1"/>
         <step type="util" id="step:{9d2d2bfe-4adc-42f2-835c-ed2d961301e2}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;10&quot;}" index="2"/>
@@ -501,7 +503,7 @@
         </step>
       </step>
     </step>
-    <step type="control" id="step:{4270a8bc-3e43-491d-ba2f-c762efe1735c}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==16&quot;,&quot;condition&quot;:true}" index="25">
+    <step type="control" id="step:{4270a8bc-3e43-491d-ba2f-c762efe1735c}" action="If" level="1" arguments="{&quot;Condition&quot;:&quot;x==16&quot;,&quot;condition&quot;:true}" index="27">
       <step type="block" id="step:{66a98ec8-1e7c-49e7-8e5d-fb5c1d3f5db4}" action="internal" level="43" arguments="{}">
         <step type="testObject" testObject="testObj:{7f82ceb3-8413-4d47-b506-21dfcf7ff4ae}" id="step:{ea55524a-4b80-46e6-890b-5506e41e768f}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:36,&quot;Y Coordinate&quot;:7}" index="1"/>
         <step type="util" id="step:{6a3d42d6-1a74-4a67-986b-83ec11b848dc}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;ma_khach_hang = LR.getParam(\&quot;ma_khach_hang\&quot;);&quot;}" index="2"/>
@@ -542,59 +544,59 @@
         </step>
       </step>
     </step>
-    <step type="testObject" testObject="testObj:{01fa8de3-c726-45f3-9945-e6bb2846d5e3}" id="step:{184499d8-a255-4d3a-8c94-f22511d00efb}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:20,&quot;Y Coordinate&quot;:13}" index="26"/>
-    <step type="block" id="step:{d9edb90a-32db-437b-8cef-a571f464b9bc}" action="Mouse Over" level="2" arguments="{}" index="27">
+    <step type="testObject" testObject="testObj:{01fa8de3-c726-45f3-9945-e6bb2846d5e3}" id="step:{184499d8-a255-4d3a-8c94-f22511d00efb}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:20,&quot;Y Coordinate&quot;:13}" index="28"/>
+    <step type="block" id="step:{d9edb90a-32db-437b-8cef-a571f464b9bc}" action="Mouse Over" level="2" arguments="{}" index="29">
       <step type="testObject" testObject="testObj:{5a098bf2-6789-445f-8935-05ee616d37a2}" id="step:{c11b6ac5-3f08-4112-8aab-3aa5b3801f56}" action="Mouse Over" level="2" index="1"/>
       <step type="testObject" testObject="testObj:{50678c4b-7bc1-4bd5-8bc1-0235530e5f93}" id="step:{8d982047-fdcb-45fd-abfa-efb6312a0e69}" action="Mouse Over" level="2" index="2"/>
     </step>
-    <step type="block" id="step:{a3f48211-21e4-4ddd-b365-9372783d7b36}" action="Mouse Over" level="2" arguments="{}" index="28">
+    <step type="block" id="step:{a3f48211-21e4-4ddd-b365-9372783d7b36}" action="Mouse Over" level="2" arguments="{}" index="30">
       <step type="testObject" testObject="testObj:{8353a5ad-987e-4fa6-afb3-844172b5dec9}" id="step:{3bd445be-4786-492f-80a0-b6698a6ce45a}" action="Mouse Over" level="2" index="1"/>
     </step>
-    <step type="block" id="step:{1d37e09f-55b4-4d2d-a15f-fc6484bf7072}" action="Mouse Over" level="3" arguments="{}" index="29">
+    <step type="block" id="step:{1d37e09f-55b4-4d2d-a15f-fc6484bf7072}" action="Mouse Over" level="3" arguments="{}" index="31">
       <step type="testObject" testObject="testObj:{626fa900-cfb4-418f-865b-cedadb34370c}" id="step:{56da3f6e-0ff9-4886-bf6a-2ddbbaf6dc63}" action="Mouse Over" level="3" index="1"/>
       <step type="testObject" testObject="testObj:{e794f120-c60a-4d08-93b8-300495854a2a}" id="step:{d6ecf07b-bfc1-470d-a971-a4cd63515237}" action="Mouse Over" level="3" index="2"/>
       <step type="testObject" testObject="testObj:{b6673371-d0c4-4ce5-8ff8-5cb492b41e0a}" id="step:{444916bd-7580-4028-9e91-d57b9e16b4a7}" action="Mouse Over" level="3" index="3"/>
       <step type="testObject" testObject="testObj:{43e60de5-c060-4e65-8b92-88bd5f63c808}" id="step:{6817ca6d-2282-4aab-a302-84841fcb1be4}" action="Mouse Over" level="3" index="4"/>
     </step>
-    <step type="block" id="step:{b6fa72ea-da6a-47e9-b0f9-82720b9202ca}" action="Mouse Over" level="2" arguments="{}" index="30">
+    <step type="block" id="step:{b6fa72ea-da6a-47e9-b0f9-82720b9202ca}" action="Mouse Over" level="2" arguments="{}" index="32">
       <step type="testObject" testObject="testObj:{803cdbd3-3e41-4326-add1-249ae5176019}" id="step:{317e146a-a8ab-4c41-a445-e43108761dab}" action="Mouse Over" level="3" index="1"/>
       <step type="testObject" testObject="testObj:{67a300ab-fd6e-45ea-8cbd-a1f494df7a2b}" id="step:{342b2048-9e8e-4473-98dd-292c8fc3e362}" action="Mouse Over" level="2" index="2"/>
       <step type="testObject" testObject="testObj:{7d782530-9717-431a-9d12-8a984f496624}" id="step:{10a094ee-4149-4290-b983-98ec732b7908}" action="Mouse Over" level="2" index="3"/>
       <step type="testObject" testObject="testObj:{cb0698b2-f039-4605-ae1b-e8e9fb7d390d}" id="step:{34a35f5d-3d11-46d8-9f0f-699f291b552d}" action="Mouse Over" level="2" index="4"/>
     </step>
-    <step type="testObject" testObject="testObj:{803cdbd3-3e41-4326-add1-249ae5176019}" id="step:{2718a9dd-5509-44d1-b2a7-f5846e08526b}" action="Mouse Over" level="3" index="31"/>
-    <step type="block" id="step:{18eb4cb6-238a-4b16-af55-906bdd2cb433}" action="Mouse Over" level="2" arguments="{}" index="32">
+    <step type="testObject" testObject="testObj:{803cdbd3-3e41-4326-add1-249ae5176019}" id="step:{2718a9dd-5509-44d1-b2a7-f5846e08526b}" action="Mouse Over" level="3" index="33"/>
+    <step type="block" id="step:{18eb4cb6-238a-4b16-af55-906bdd2cb433}" action="Mouse Over" level="2" arguments="{}" index="34">
       <step type="testObject" testObject="testObj:{0392d669-f58d-4848-8c52-3d68cb605d46}" id="step:{ed8c5db2-ef2e-45c7-9595-ff1c678753b0}" action="Mouse Over" level="2" index="1"/>
     </step>
-    <step type="block" id="step:{6e069df8-e002-47f0-830a-44adeb59a4c9}" action="Mouse Over" level="2" arguments="{}" index="33">
+    <step type="block" id="step:{6e069df8-e002-47f0-830a-44adeb59a4c9}" action="Mouse Over" level="2" arguments="{}" index="35">
       <step type="testObject" testObject="testObj:{b92eb019-cd87-4773-84d6-b8b8f87528a9}" id="step:{e4dc021e-694f-4c69-8c24-312c3c5dabae}" action="Mouse Over" level="3" index="1"/>
       <step type="testObject" testObject="testObj:{42d9f281-0593-4089-aa76-98c6ab25f258}" id="step:{f74c6ad1-91ea-4a73-b579-86c64945277b}" action="Mouse Over" level="3" index="2"/>
       <step type="testObject" testObject="testObj:{b92eb019-cd87-4773-84d6-b8b8f87528a9}" id="step:{c97f9fff-c9db-430a-a87e-cb452287aec7}" action="Mouse Over" level="3" index="3"/>
       <step type="testObject" testObject="testObj:{39ab42bd-692f-48a9-9fc6-75e8ac187a02}" id="step:{bcd6527f-6b6a-435a-a540-81a52c0eb9a7}" action="Mouse Over" level="2" index="4"/>
       <step type="testObject" testObject="testObj:{10de57b2-bdfb-400e-bdb7-37ebea4aaa48}" id="step:{3d0279d0-252b-4b28-8cfc-482d6958bb42}" action="Mouse Over" level="2" index="5"/>
     </step>
-    <step type="block" id="step:{426e487c-0222-4054-801f-28ccad82bb19}" action="Mouse Over" level="2" arguments="{}" index="34">
+    <step type="block" id="step:{426e487c-0222-4054-801f-28ccad82bb19}" action="Mouse Over" level="2" arguments="{}" index="36">
       <step type="testObject" testObject="testObj:{8a05479d-9659-4edc-ac90-539b695eb3bb}" id="step:{0990681b-59b8-40b7-b4e2-a0c2f530d04b}" action="Mouse Over" level="2" index="1"/>
       <step type="testObject" testObject="testObj:{6eaffe11-dc5f-481d-9303-138abe67d63f}" id="step:{f1b1d513-4e81-42a2-9e9e-f9913080cfdd}" action="Mouse Over" level="2" index="2"/>
       <step type="testObject" testObject="testObj:{50789106-aa59-4ac0-8d00-fffbcf231bfc}" id="step:{03b6a842-a388-42d0-9894-a571e67a07ce}" action="Mouse Over" level="2" index="3"/>
     </step>
-    <step type="block" id="step:{61c090a5-2198-4b4d-a616-51efc90c87c3}" action="Mouse Over" level="2" arguments="{}" index="35">
+    <step type="block" id="step:{61c090a5-2198-4b4d-a616-51efc90c87c3}" action="Mouse Over" level="2" arguments="{}" index="37">
       <step type="testObject" testObject="testObj:{4292d224-4ed5-4f16-8e83-aefcce7cca5a}" id="step:{4ddaab2f-113b-4ff7-98a1-a8a2012aced3}" action="Mouse Over" level="3" index="1"/>
       <step type="testObject" testObject="testObj:{d824ec0c-1109-456c-bb5b-657053048be4}" id="step:{839faac0-235b-46f6-a001-548a7a0f7937}" action="Mouse Over" level="2" index="2"/>
       <step type="testObject" testObject="testObj:{d32ba3ea-4ea6-41b1-9822-6759ee8d0710}" id="step:{6dfcc5dd-b2db-45f5-9caa-a966d1a16f49}" action="Mouse Over" level="2" index="3"/>
       <step type="testObject" testObject="testObj:{b347efaa-df9b-4390-b383-21709c2c4dcb}" id="step:{01398ad2-838d-42b9-a6da-3c1c19c6e599}" action="Mouse Over" level="3" index="4"/>
     </step>
-    <step type="testObject" testObject="testObj:{5a2b8131-3e7e-4688-823f-21b3f127495f}" id="step:{cc1d84f0-0927-4b15-84cc-a35eeac9979c}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:69,&quot;Y Coordinate&quot;:13}" index="36"/>
-    <step type="block" id="step:{a0be161a-4683-4b53-a18e-1bd455781fa8}" action="Mouse Over" level="2" arguments="{}" index="37">
+    <step type="testObject" testObject="testObj:{5a2b8131-3e7e-4688-823f-21b3f127495f}" id="step:{cc1d84f0-0927-4b15-84cc-a35eeac9979c}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:69,&quot;Y Coordinate&quot;:13}" index="38"/>
+    <step type="block" id="step:{a0be161a-4683-4b53-a18e-1bd455781fa8}" action="Mouse Over" level="2" arguments="{}" index="39">
       <step type="testObject" testObject="testObj:{0c5c51e6-b705-4efe-8509-23da00490b14}" id="step:{ca9f197f-05ca-400a-8e00-232675e4a01b}" action="Mouse Over" level="3" index="1"/>
     </step>
-    <step type="testObject" testObject="testObj:{4292d224-4ed5-4f16-8e83-aefcce7cca5a}" id="step:{1420bcf2-dcc2-4f94-8c40-61eea7b5ba9d}" action="Mouse Over" level="3" index="38"/>
-    <step type="block" id="step:{60229f59-fdd2-4d0c-b952-243f176ca052}" action="Mouse Over" level="2" arguments="{}" index="39">
+    <step type="testObject" testObject="testObj:{4292d224-4ed5-4f16-8e83-aefcce7cca5a}" id="step:{1420bcf2-dcc2-4f94-8c40-61eea7b5ba9d}" action="Mouse Over" level="3" index="40"/>
+    <step type="block" id="step:{60229f59-fdd2-4d0c-b952-243f176ca052}" action="Mouse Over" level="2" arguments="{}" index="41">
       <step type="testObject" testObject="testObj:{8f150b97-4068-4ded-a72f-607b9fc6b6b5}" id="step:{56d63932-3d8c-443f-bd18-786295065b21}" action="Mouse Over" level="2" index="1"/>
       <step type="testObject" testObject="testObj:{0eb55b07-8b3a-42a6-9740-7fea099a6fc6}" id="step:{94818858-278b-4186-9fb9-0fd026779622}" action="Mouse Over" level="2" index="2"/>
       <step type="testObject" testObject="testObj:{9a4b1d6b-7375-4053-a3f8-0f6c9e714034}" id="step:{416b0074-912f-452e-84a9-0b28faf3fc24}" action="Mouse Over" level="2" index="3"/>
     </step>
-    <step type="block" id="step:{4d6ab90a-b406-4a8b-806a-dc56f3a04c95}" action="Mouse Over" level="2" arguments="{}" index="40">
+    <step type="block" id="step:{4d6ab90a-b406-4a8b-806a-dc56f3a04c95}" action="Mouse Over" level="2" arguments="{}" index="42">
       <step type="testObject" testObject="testObj:{30b5689b-390d-452d-8d15-85b8376f5779}" id="step:{0a351557-039b-4f22-b2e1-3468c65efc49}" action="Mouse Over" level="2" index="1"/>
       <step type="testObject" testObject="testObj:{fafcba97-2fa2-42db-8214-1eafdbb444c1}" id="step:{d7b8c482-d087-497c-bfa8-7aa409a6b030}" action="Mouse Over" level="3" index="2"/>
       <step type="testObject" testObject="testObj:{acee4317-bfa5-4de0-ba7c-99f168ccd2af}" id="step:{2013c7a4-b489-4e31-b77c-1e01a822b451}" action="Mouse Over" level="3" index="3"/>
@@ -603,7 +605,7 @@
       <step type="testObject" testObject="testObj:{ccea8116-c8e6-4743-bdde-0c8b24ecb74d}" id="step:{a98e1c61-2da5-4857-a2c1-c69ded77a186}" action="Mouse Over" level="3" index="6"/>
       <step type="testObject" testObject="testObj:{d1da6bb5-e743-4dbc-ab2c-6e9589916dcc}" id="step:{a783d993-c0bc-4dcc-ad9a-b8ef3e7b2166}" action="Mouse Over" level="2" index="7"/>
     </step>
-    <step type="testObject" testObject="testObj:{021a4651-8de7-409f-9fcf-c8e37868fadb}" id="step:{b0865789-1b19-408f-8399-e4a9b5472a4b}" action="Mouse Over" level="2" index="41"/>
+    <step type="testObject" testObject="testObj:{021a4651-8de7-409f-9fcf-c8e37868fadb}" id="step:{b0865789-1b19-408f-8399-e4a9b5472a4b}" action="Mouse Over" level="2" index="43"/>
   </step>
   <step type="block" id="step:{8906aaeb-8c81-4230-baa7-2ff274d84937}" action="action" level="43" arguments="{&quot;comment&quot;:&quot;End Container&quot;}"/>
   <step type="runLogic" name="default" id="step:{a8e8f8d6-1358-4f1c-a1d5-190b4ea59ede}" action="runLogic" level="43" arguments="{&quot;type&quot;:&quot;default&quot;}">
@@ -1237,9 +1239,9 @@ setValue:function (value) {
 	"value":"/html/body/div/div/div/div[4]/div/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[7]/td/table/tbody/tr/td/table/tbody/tr/td[1]/div/span/table/tbody/tr[2]/td[2]"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{c452ad19-49b4-419b-99e2-a7045c4de2cf}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.47515645,
+"primaryScore":0.47515644999999995,
 "implData":{
-	"ctxScore":0.5,
+	"ctxScore":0,
 	"electors":[
 		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 		{ "id" : "position", "value" : "absolute", "score" : 0.1 }, 
@@ -1249,14 +1251,14 @@ setValue:function (value) {
 	],
 	"secondaryData":{
 		"default":{
-				"totalObjs":143,
+				"totalObjs":145,
 				"maxObjsPerElector":200,
 				"total":{
-						"tagName":143,
+						"leaf":null,
+						"position":null,
 						"id":1,
 						"class":1,
-						"leaf":null,
-						"position":null
+						"tagName":145
 				},
 				"secondaryScore":0,
 				"totalCandidates":1
@@ -1372,8 +1374,7 @@ setValue:function (value) {
 	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/div[5]/div[3]"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{4dedc55b-c2d4-46be-b29b-299790ddab88}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{c452ad19-49b4-419b-99e2-a7045c4de2cf}",
+"primaryScore":0.6501043,
 "implData":{
 	"ctxScore":0,
 	"electors":[
@@ -1385,30 +1386,17 @@ setValue:function (value) {
 	],
 	"secondaryData":{
 		"default":{
-				"totalObjs":143,
+				"totalObjs":145,
 				"maxObjsPerElector":200,
 				"total":{
-						"tagName":143,
-						"id":54,
+						"leaf":null,
+						"text":1,
 						"class":53,
-						"text":1,
-						"leaf":null
+						"id":54,
+						"tagName":145
 				},
-				"secondaryScore":0.416836331595,
+				"secondaryScore":0.41683633159500005,
 				"totalCandidates":54
-		},
-		"testObj:{c452ad19-49b4-419b-99e2-a7045c4de2cf}":{
-				"totalObjs":46,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":46,
-						"id":31,
-						"class":31,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":31
 		}
 },
 
@@ -1419,47 +1407,41 @@ setValue:function (value) {
 	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/div[1]"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{6855d142-4bd7-4020-ba11-6ba0fe7a58d0}" autoName="button"><roles><role>element</role><role>focusable</role><role>button</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6169702375,
+"primaryScore":0.3562525,
 "contextObj":"testObj:{4dedc55b-c2d4-46be-b29b-299790ddab88}",
 "implData":{
 	"ctxScore":0,
 	"electors":[
 		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "style/background-image", "value" : "url(\"http://bo.ezmall.vn/media/images/chon-cua-hang-1_08.gif\")", "score" : 0.15 }, 
 		{ "id" : "dimensions", "value" : {"width":84,"height":97}, "score" : 0.15 }, 
 		{ "id" : "class", "value" : "z-button-os", "score" : 0.15 }, 
 		{ "id" : "tagName", "value" : "BUTTON", "score" : 0.1 }, 
-		{ "id" : "id", "value" : {"id":"Button_20","isValidWord":true}, "score" : 0.3 }, 
 	],
 	"secondaryData":{
 		"default":{
-				"totalObjs":31,
+				"totalObjs":14,
 				"maxObjsPerElector":200,
 				"total":{
-						"tagName":12,
-						"id":27,
-						"class":8,
 						"leaf":null,
-						"style/background-image":null,
-						"dimensions":null
+						"dimensions":null,
+						"class":8,
+						"tagName":12
 				},
-				"secondaryScore":0.616964067797625,
-				"similarPrimaryScore":0.616964067797625,
-				"similarSecondaryScore":0.18439046376923082,
+				"secondaryScore":0.356248937475,
+				"similarPrimaryScore":0.356248937475,
+				"similarSecondaryScore":0,
 				"similarTotal":6,
 				"similarOrdinal":1,
-				"totalCandidates":8
+				"totalCandidates":6
 		},
 		"testObj:{4dedc55b-c2d4-46be-b29b-299790ddab88}":{
 				"totalObjs":1,
 				"maxObjsPerElector":200,
 				"total":{
-						"tagName":1,
-						"id":1,
-						"class":1,
 						"leaf":null,
-						"style/background-image":null,
-						"dimensions":null
+						"dimensions":null,
+						"class":1,
+						"tagName":1
 				},
 				"secondaryScore":0,
 				"totalCandidates":1
@@ -7627,82 +7609,6 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"zNRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{3f65c589-04a7-4888-b643-34a7515598a2}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.529552,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Hbox_9-box","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":63,
-				"maxObjsPerElector":200,
-				"total":{
-						"leaf":null,
-						"id":1,
-						"text":1,
-						"tagName":63
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"zNRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]/span/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{05ff83e1-4c48-4821-a4a3-6192536bb021}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{151bd18b-a56b-48e3-b82d-c460329f1559}",
-"contextChanged":true,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tr/cols", "value" : 3, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":139,
-				"maxObjsPerElector":200,
-				"total":{
-						"tr/cols":null,
-						"leaf":null,
-						"text":1,
-						"tagName":139
-				},
-				"secondaryScore":0.10652393475000001,
-				"totalCandidates":68
-		},
-		"testObj:{151bd18b-a56b-48e3-b82d-c460329f1559}":{
-				"totalObjs":3,
-				"maxObjsPerElector":200,
-				"total":{
-						"tr/cols":null,
-						"leaf":null,
-						"text":1,
-						"tagName":3
-				},
-				"secondaryScore":0.10652393475000001,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"zNRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]/span/table/tbody/tr[2]"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{5ebe7e57-920c-4459-9e53-48c338716f1d}" autoName="Thêm"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.59229325,
 "contextObj":"testObj:{151bd18b-a56b-48e3-b82d-c460329f1559}",
@@ -8501,52 +8407,6 @@ setValue:function (value) {
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{0fa0a9fe-90c2-4b7a-b344-f6089f07dce4}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.41194000000000003,
-"contextObj":"testObj:{3d17f4e1-6186-4ba6-800e-390cca9c45a8}",
-"contextChanged":true,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":68,
-				"maxObjsPerElector":200,
-				"total":{
-						"leaf":null,
-						"text":2,
-						"tagName":68
-				},
-				"secondaryScore":0.4119358806,
-				"similarPrimaryScore":0.4119358806,
-				"similarSecondaryScore":0.019899801,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":68
-		},
-		"testObj:{3d17f4e1-6186-4ba6-800e-390cca9c45a8}":{
-				"totalObjs":1,
-				"maxObjsPerElector":200,
-				"total":{
-						"leaf":null,
-						"text":1,
-						"tagName":1
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]/table"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{fbf05577-e44d-4572-b558-d76c0e8ce784}" autoName="Thanh toán"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.59229325,
 "contextObj":"testObj:{2949621a-4be7-4993-a3ca-cfe43c2c81c2}",
@@ -8631,39 +8491,6 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"/html/body/div[2]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{2fdf5adc-194c-485e-826f-204a2aadbde6}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.5501341000000001,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "position", "value" : "absolute", "score" : 0.1 }, 
-		{ "id" : "class", "value" : "z-window-modal z-window-modal-shadow", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Thông báoLưu dữ liệu thành công Đóng","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":1,
-				"maxObjsPerElector":200,
-				"total":{
-						"leaf":null,
-						"position":null,
-						"class":1,
-						"text":1,
-						"tagName":240
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{34cdde11-e2f1-4f0c-b1f2-6d68dc435ad3}" autoName="Đóng"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.59229325,
@@ -13779,296 +13606,7 @@ setValue:function (value) {
 setValue:function (value) {
     this.object.value = value;
 },
-}]]></methods></testObject><testObject id="testObj:{34c82f11-2aeb-470e-9375-e75315e0fe4e}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":" AAA ThêmChọn SPThêm SP","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 1, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":139,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":139,
-						"text":3,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.46391036085000004,
-				"similarPrimaryScore":0.46391036085000004,
-				"similarSecondaryScore":0.10652393475000001,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":48
-		},
-		"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}":{
-				"totalObjs":13,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":13,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.19385520428571432,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{ac616177-a584-4820-9ec4-067f0ef1ba4e}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.5711320000000001,
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Tabpanel_1-chdex","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":" AAA ThêmChọn SPThêm SP","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 1, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":139,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":139,
-						"id":1,
-						"text":3,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.40434595650000005,
-				"totalCandidates":48
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{bd154386-c541-4734-a60a-251a0dee1095}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.54856,
-"contextObj":"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Tabpanel_1-frame","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":" AAA ThêmChọn SPThêm SP","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":324,
-						"id":1,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.3729962700000001,
-				"totalCandidates":2
-		},
-		"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}":{
-				"totalObjs":43,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":43,
-						"id":1,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{419dc25d-a4a0-44cb-9956-0a0834c3d3a4}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.529552,
-"contextObj":"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Tabpanel_1-real","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":" AAA ThêmChọn SPThêm SP","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":63,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":63,
-						"id":1,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.346596534,
-				"totalCandidates":2
-		},
-		"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}":{
-				"totalObjs":6,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":6,
-						"id":1,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{2a6ff864-ee70-4216-ae0f-01acc83d4695}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":" AAA ThêmChọn SPThêm SP","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 11, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":139,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":139,
-						"text":3,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.19385520428571432,
-				"totalCandidates":3
-		},
-		"testObj:{fd29056f-1c84-49fe-b2c6-e25fe3d37054}":{
-				"totalObjs":13,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":13,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.19385520428571432,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{493a7359-6f1a-4385-bc86-92c7e09ac0f3}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.41194000000000003,
-"contextObj":"testObj:{419dc25d-a4a0-44cb-9956-0a0834c3d3a4}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TBODY", "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":" AAA ThêmChọn SPThêm SP","tagName":"TBODY"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":70,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":70,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.4119358806,
-				"similarPrimaryScore":0.4119358806,
-				"similarSecondaryScore":0.019899801,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":69
-		},
-		"testObj:{419dc25d-a4a0-44cb-9956-0a0834c3d3a4}":{
-				"totalObjs":6,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":6,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.019899801,
-				"totalCandidates":6
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{112a8513-c7da-4e76-b612-80db96560cf5}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.54856,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Hbox_9-chdex","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":8,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":324,
-						"id":7,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.24759752399999999,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{151bd18b-a56b-48e3-b82d-c460329f1559}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+}]]></methods></testObject><testObject id="testObj:{151bd18b-a56b-48e3-b82d-c460329f1559}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.6001192000000001,
 "implData":{
 	"ctxScore":0,
@@ -14100,224 +13638,6 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"descendant::div[@id=\"gPRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]/span"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{4207587d-e97a-46bf-beff-f7ebd9a14996}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.500149,
-"contextObj":"testObj:{d5d88552-5092-425a-8145-0fc79a4f212b}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "class", "value" : "z-window-modal-cr", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":7,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":242,
-						"class":1,
-						"text":7,
-						"leaf":null
-				},
-				"secondaryScore":0.346596534,
-				"totalCandidates":7
-		},
-		"testObj:{d5d88552-5092-425a-8145-0fc79a4f212b}":{
-				"totalObjs":20,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":20,
-						"class":1,
-						"text":7,
-						"leaf":null
-				},
-				"secondaryScore":0.346596534,
-				"totalCandidates":7
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{6aba88f3-2159-4069-ae61-6f4ea3e46e5e}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.56013112,
-"contextObj":"testObj:{d5d88552-5092-425a-8145-0fc79a4f212b}",
-"implData":{
-	"ctxScore":0.4,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "class", "value" : "z-window-modal-cm", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":7,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":242,
-						"class":1,
-						"text":7,
-						"leaf":null,
-						"border":null
-				},
-				"secondaryScore":0.257497425,
-				"totalCandidates":7
-		},
-		"testObj:{d5d88552-5092-425a-8145-0fc79a4f212b}":{
-				"totalObjs":20,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":20,
-						"class":1,
-						"text":7,
-						"leaf":null,
-						"border":null
-				},
-				"secondaryScore":0.257497425,
-				"totalCandidates":7
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{d63f3153-5c33-4181-a99d-b4adcaceeb73}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{6aba88f3-2159-4069-ae61-6f4ea3e46e5e}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Row_6","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-div", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":35,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":242,
-						"id":8,
-						"class":23,
-						"text":7,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":8
-		},
-		"testObj:{6aba88f3-2159-4069-ae61-6f4ea3e46e5e}":{
-				"totalObjs":10,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":7,
-						"id":3,
-						"class":2,
-						"text":4,
-						"leaf":null
-				},
-				"secondaryScore":0.03738708724832215,
-				"totalCandidates":4
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{1eb99689-eb55-4fac-8e79-499a1e9ca56c}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_73-cave","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-window-modal-cnt", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":13,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":242,
-						"id":7,
-						"class":1,
-						"text":7,
-						"leaf":null
-				},
-				"secondaryScore":0.03749962499999997,
-				"totalCandidates":13
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{c87ea43c-2f49-4e13-883d-c9c904edf481}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{1eb99689-eb55-4fac-8e79-499a1e9ca56c}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_75","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-vlayout", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":67,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":242,
-						"id":61,
-						"class":1,
-						"text":7,
-						"leaf":null
-				},
-				"secondaryScore":0.2859242835857143,
-				"totalCandidates":11
-		},
-		"testObj:{1eb99689-eb55-4fac-8e79-499a1e9ca56c}":{
-				"totalObjs":24,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":6,
-						"id":19,
-						"class":1,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.2859242835857143,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.6401072800000001,
@@ -14353,378 +13673,6 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{fca154a9-942c-4e5c-8ed8-7869ea9bb89f}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_76","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-hbox", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":139,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":68,
-						"id":61,
-						"class":13,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.5426145738,
-				"totalCandidates":3
-		},
-		"testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}":{
-				"totalObjs":21,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":5,
-						"id":18,
-						"class":1,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.5426145738,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{ca4d48b0-5688-4bed-a708-cf2f087d25dd}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{fca154a9-942c-4e5c-8ed8-7869ea9bb89f}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 1, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":150,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":150,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.46391036085000004,
-				"similarPrimaryScore":0.46391036085000004,
-				"similarSecondaryScore":0.10652393475000001,
-				"similarTotal":2,
-				"similarOrdinal":1,
-				"totalCandidates":49
-		},
-		"testObj:{fca154a9-942c-4e5c-8ed8-7869ea9bb89f}":{
-				"totalObjs":12,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":12,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.46391036085000004,
-				"similarPrimaryScore":0.46391036085000004,
-				"similarSecondaryScore":0,
-				"similarTotal":2,
-				"similarOrdinal":1,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{0aed0a39-2b70-4d82-9316-a508caa38502}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.60499,
-"contextObj":"testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Label_76-frame","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":357,
-						"id":1,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.19385520428571434,
-				"totalCandidates":2
-		},
-		"testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}":{
-				"totalObjs":28,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":28,
-						"id":1,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.19385520428571434,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{5deabba5-4242-4c15-bd2d-3da940434584}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.588358,
-"contextObj":"testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_76-real","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":68,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":68,
-						"id":1,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.15991268657142862,
-				"totalCandidates":3
-		},
-		"testObj:{76c22b1b-0912-4b58-85e6-0694f41264a5}":{
-				"totalObjs":5,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":5,
-						"id":1,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.15991268657142862,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{d803eb1d-da6c-4bea-97c0-7f9cdfb04ad3}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{5deabba5-4242-4c15-bd2d-3da940434584}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 1, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":150,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":150,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.46391036085000004,
-				"similarPrimaryScore":0.46391036085000004,
-				"similarSecondaryScore":0.10652393475000001,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":49
-		},
-		"testObj:{5deabba5-4242-4c15-bd2d-3da940434584}":{
-				"totalObjs":11,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":11,
-						"text":1,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{3284f2c6-4c09-42a4-bd10-4b51deff0327}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.54856,
-"contextObj":"testObj:{5deabba5-4242-4c15-bd2d-3da940434584}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Label_77-chdex","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":9,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":357,
-						"id":8,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.3729962700000001,
-				"totalCandidates":8
-		},
-		"testObj:{5deabba5-4242-4c15-bd2d-3da940434584}":{
-				"totalObjs":27,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":27,
-						"id":1,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{589da5a1-e4a9-4f6b-813f-ad44be808010}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.588358,
-"contextObj":"testObj:{3284f2c6-4c09-42a4-bd10-4b51deff0327}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_77","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":127,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":68,
-						"id":61,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.5883521164200001,
-				"similarPrimaryScore":0.5883521164200001,
-				"similarSecondaryScore":0,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":3
-		},
-		"testObj:{3284f2c6-4c09-42a4-bd10-4b51deff0327}":{
-				"totalObjs":19,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":3,
-						"id":17,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{5147a61c-9bcc-4a46-bfb3-864433fe0269}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.41194000000000003,
-"contextObj":"testObj:{589da5a1-e4a9-4f6b-813f-ad44be808010}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TBODY", "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":"Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"TBODY"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":75,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":75,
-						"text":3,
-						"leaf":null
-				},
-				"secondaryScore":0.4119358806,
-				"similarPrimaryScore":0.4119358806,
-				"similarSecondaryScore":0.019899801,
-				"similarTotal":3,
-				"similarOrdinal":3,
-				"totalCandidates":73
-		},
-		"testObj:{589da5a1-e4a9-4f6b-813f-ad44be808010}":{
-				"totalObjs":3,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":3,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.019899801,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{2949621a-4be7-4993-a3ca-cfe43c2c81c2}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.60499,
@@ -14770,196 +13718,6 @@ setValue:function (value) {
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{3d17f4e1-6186-4ba6-800e-390cca9c45a8}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{2949621a-4be7-4993-a3ca-cfe43c2c81c2}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "SPAN", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_92","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "btnWhite z-button", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"SPAN"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":139,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":63,
-						"id":61,
-						"class":44,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.6500977989570002,
-				"similarPrimaryScore":0.6500977989570002,
-				"similarSecondaryScore":0.416836331595,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":22
-		},
-		"testObj:{2949621a-4be7-4993-a3ca-cfe43c2c81c2}":{
-				"totalObjs":4,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":2,
-						"id":2,
-						"class":4,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{3e5089ec-4cce-49cc-b3b6-8d08248c26bf}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{3d17f4e1-6186-4ba6-800e-390cca9c45a8}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 3, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":150,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":150,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.46391036085000004,
-				"similarPrimaryScore":0.46391036085000004,
-				"similarSecondaryScore":0.10652393475000001,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":74
-		},
-		"testObj:{3d17f4e1-6186-4ba6-800e-390cca9c45a8}":{
-				"totalObjs":3,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":3,
-						"text":1,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.10652393475000001,
-				"totalCandidates":3
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]/table/tbody/tr[2]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{9e67276b-1e69-43f2-9c20-d573a2d7b674}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.500149,
-"contextObj":"testObj:{2fdf5adc-194c-485e-826f-204a2aadbde6}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "class", "value" : "z-window-modal-cr", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Lưu dữ liệu thành công Đóng","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":4,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":240,
-						"class":1,
-						"text":4,
-						"leaf":null
-				},
-				"secondaryScore":0.346596534,
-				"totalCandidates":4
-		},
-		"testObj:{2fdf5adc-194c-485e-826f-204a2aadbde6}":{
-				"totalObjs":18,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":18,
-						"class":1,
-						"text":4,
-						"leaf":null
-				},
-				"secondaryScore":0.346596534,
-				"totalCandidates":4
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{35c85d85-e644-442e-9e3a-6399674a1cba}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.56013112,
-"contextObj":"testObj:{2fdf5adc-194c-485e-826f-204a2aadbde6}",
-"implData":{
-	"ctxScore":0.4,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "class", "value" : "z-window-modal-cm", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Lưu dữ liệu thành công Đóng","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":4,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":240,
-						"class":1,
-						"text":4,
-						"leaf":null,
-						"border":null
-				},
-				"secondaryScore":0.257497425,
-				"totalCandidates":4
-		},
-		"testObj:{2fdf5adc-194c-485e-826f-204a2aadbde6}":{
-				"totalObjs":18,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":18,
-						"class":1,
-						"text":4,
-						"leaf":null,
-						"border":null
-				},
-				"secondaryScore":0.257497425,
-				"totalCandidates":5
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{dbbde869-c79c-4495-b7fa-115e28e2c726}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.6501043000000001,
 "implData":{
@@ -14992,276 +13750,6 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{dbbde869-c79c-4495-b7fa-115e28e2c726}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Row_9","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-vbox", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Lưu dữ liệu thành công Đóng","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":75,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":66,
-						"id":6,
-						"class":6,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.237697623,
-				"totalCandidates":3
-		},
-		"testObj:{dbbde869-c79c-4495-b7fa-115e28e2c726}":{
-				"totalObjs":3,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":3,
-						"id":1,
-						"class":1,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.03738708724832215,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{7a266933-be48-487d-99f7-2a02b25e50e7}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.60499,
-"contextObj":"testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Row_9-frame","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Lưu dữ liệu thành công Đóng","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":344,
-						"id":2,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.3416465835,
-				"totalCandidates":2
-		},
-		"testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}":{
-				"totalObjs":15,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":15,
-						"id":1,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{dfa7803d-c4a0-434f-8392-4390a6c5a753}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.588358,
-"contextObj":"testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Row_9-real","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Lưu dữ liệu thành công Đóng","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":66,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":66,
-						"id":2,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.3139268607,
-				"totalCandidates":3
-		},
-		"testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":2,
-						"id":1,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{08ff1ead-f5d8-443f-8536-fc7ba897b1c2}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.5711320000000001,
-"contextObj":"testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Label_97-chdex","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":"Đóng","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 1, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":153,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":147,
-						"id":9,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.2852171478,
-				"totalCandidates":54
-		},
-		"testObj:{5e1f7262-64a5-4395-84ca-98d5ef9b046b}":{
-				"totalObjs":9,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":9,
-						"id":3,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.2852171478,
-				"totalCandidates":7
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[5]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{4ebbe4d6-f53f-4ebe-ad65-2ccb4684aff4}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{08ff1ead-f5d8-443f-8536-fc7ba897b1c2}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "SPAN", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_97","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "btnWhite z-button", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Đóng","tagName":"SPAN"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":122,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":60,
-						"id":45,
-						"class":42,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":19
-		},
-		"testObj:{08ff1ead-f5d8-443f-8536-fc7ba897b1c2}":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":1,
-						"id":1,
-						"class":2,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[5]/td/span"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{92de0128-dbde-481a-8981-4354f365255a}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.4357,
-"contextObj":"testObj:{08ff1ead-f5d8-443f-8536-fc7ba897b1c2}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Đóng","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":2,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":344,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.28749712499999996,
-				"totalCandidates":2
-		},
-		"testObj:{08ff1ead-f5d8-443f-8536-fc7ba897b1c2}":{
-				"totalObjs":10,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":10,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.28749712499999996,
-				"totalCandidates":4
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[5]/td"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{283eb6bd-810d-45a0-8ffc-d6ece9020e80}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.6501043000000001,
@@ -15309,6 +13797,196 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"/html/body/div[3]/div[3]/div/div/div/table/tbody/tr/td/table/tbody/tr[5]/td/span/table"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{f8b43848-54f5-47fd-8e2e-9c124b587020}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.4168405,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"AA008ChooseLocationWindow_1-cave","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-window-modal-cnt-noborder", "score" : 0.15 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":145,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":145,
+						"id":1,
+						"class":1,
+						"leaf":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{f5ce08dc-94b9-43cf-9fb1-b055c5a98d7d}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.504314425,
+"contextObj":"testObj:{f8b43848-54f5-47fd-8e2e-9c124b587020}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Div_24","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "select_cart z-div", "score" : 0.15 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "dimensions", "value" : {"width":600,"height":400}, "score" : 0.15 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":150,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":145,
+						"id":54,
+						"class":53,
+						"leaf":null,
+						"dimensions":null
+				},
+				"secondaryScore":0.50430938185575,
+				"similarPrimaryScore":0.456685165602675,
+				"similarSecondaryScore":0.22245177546000003,
+				"similarTotal":6,
+				"similarOrdinal":2,
+				"totalCandidates":51
+		},
+		"testObj:{f8b43848-54f5-47fd-8e2e-9c124b587020}":{
+				"totalObjs":34,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":34,
+						"id":31,
+						"class":31,
+						"leaf":null,
+						"dimensions":null
+				},
+				"secondaryScore":0.50430938185575,
+				"similarPrimaryScore":0.50430938185575,
+				"similarSecondaryScore":0.1028305101461539,
+				"similarTotal":5,
+				"similarOrdinal":1,
+				"totalCandidates":31
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{bb581fd4-5d42-4556-97a3-698fe891539b}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.4168405,
+"contextObj":"testObj:{f5ce08dc-94b9-43cf-9fb1-b055c5a98d7d}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Div_29","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "cart_content_rol z-div", "score" : 0.15 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":145,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":145,
+						"id":54,
+						"class":53,
+						"leaf":null
+				},
+				"secondaryScore":0.416836331595,
+				"similarPrimaryScore":0.416836331595,
+				"similarSecondaryScore":0.263684863125,
+				"similarTotal":51,
+				"similarOrdinal":26,
+				"totalCandidates":54
+		},
+		"testObj:{f5ce08dc-94b9-43cf-9fb1-b055c5a98d7d}":{
+				"totalObjs":33,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":33,
+						"id":30,
+						"class":30,
+						"leaf":null
+				},
+				"secondaryScore":0.416836331595,
+				"similarPrimaryScore":0.416836331595,
+				"similarSecondaryScore":0,
+				"similarTotal":30,
+				"similarOrdinal":5,
+				"totalCandidates":30
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{c8ab6e6b-23a7-49aa-9fb4-37302aa6a4d9}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.4168405,
+"contextObj":"testObj:{f5ce08dc-94b9-43cf-9fb1-b055c5a98d7d}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Div_28","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "cart_content z-div", "score" : 0.15 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":145,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":145,
+						"id":54,
+						"class":53,
+						"leaf":null
+				},
+				"secondaryScore":0.416836331595,
+				"similarPrimaryScore":0.416836331595,
+				"similarSecondaryScore":0.263684863125,
+				"similarTotal":51,
+				"similarOrdinal":25,
+				"totalCandidates":54
+		},
+		"testObj:{f5ce08dc-94b9-43cf-9fb1-b055c5a98d7d}":{
+				"totalObjs":33,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":33,
+						"id":30,
+						"class":30,
+						"leaf":null
+				},
+				"secondaryScore":0.416836331595,
+				"similarPrimaryScore":0.416836331595,
+				"similarSecondaryScore":0,
+				"similarTotal":30,
+				"similarOrdinal":4,
+				"totalCandidates":30
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]"
 }
 }]]></ident></idents></testObject></testObjects>
 <transactions/>
