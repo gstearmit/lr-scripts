@@ -1,0 +1,24 @@
+Virtual User Script started at : 2013-08-08 14:30:42
+Starting action vuser_init.
+TruClient Replay for LoadRunner 11.0.0 for WINXP build 8859, initialized on 2013/08/08 at 14:30:41 (1375947041.688s)
+
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+t=00001250ms: ** 1: Wait 3 seconds ** started    [MsgId: MMSG-204251]
+t=00004266ms: ** 1: Wait 3 seconds ** successfully completed    [MsgId: MMSG-204250]
+t=00004266ms: ** 2: Evaluate JS http= LR.getParam("http"); //window.alert(http);  ** started    [MsgId: MMSG-204251]
+t=00004313ms: ** 2: Evaluate JS http= LR.getParam("http"); //window.alert(http);  ** successfully completed    [MsgId: MMSG-204250]
+t=00004313ms: ** 3: Navigate to http ** started    [MsgId: MMSG-204251]
+t=00007234ms: ** 3: Navigate to "http://bo.ezstore.vn" ** successfully completed    [MsgId: MMSG-204250]
+t=00007234ms: ** 6: dang nhap ** started    [MsgId: MMSG-204251]
+t=00007250ms: ** 6.1: Type "demo" in Tên ??ng nh?p textbox ** started    [MsgId: MMSG-204251]
+t=00027000ms: Error -203246: ** 6.1: Type "demo" in Tên ??ng nh?p textbox ** failed - target object was not found.    [MsgId: MERR-203246]
+t=00027000ms: Error -203250: ** 6: dang nhap ** was aborted because of an error in another step    [MsgId: MERR-203250]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
