@@ -4,10 +4,42 @@ Generated File. Do not edit.
 Version|0.11|$
 
 [PLUGINS]
+npdrmv2.dll|$
+C:\Program Files\Windows Media Player\npdrmv2.dll|$
+9.0.0.4503|$
+1208202178000|1|1|$
+DRM Netscape Network Object|$
+Microsoft® DRM|$
+1
+0|application/x-drm-v2|Network Interface Plugin|nip|$
+npwmsdrm.dll|$
+C:\Program Files\Windows Media Player\npwmsdrm.dll|$
+9.0.0.4503|$
+1208202124000|1|1|$
+DRM Store Netscape Plugin|$
+Microsoft® DRM|$
+1
+0|application/x-drm|Network Interface Plugin|nip|$
+npdsplay.dll|$
+C:\Program Files\Windows Media Player\npdsplay.dll|$
+3.0.2.629|$
+1208202124000|1|1|$
+Npdsplay dll|$
+Windows Media Player Plug-in Dynamic Link Library|$
+9
+0|application/asx|Media Files|*|$
+1|video/x-ms-asf-plugin|Media Files|*|$
+2|application/x-mplayer2|Media Files|*|$
+3|video/x-ms-asf|Media Files|asf,asx,*|$
+4|video/x-ms-wm|Media Files|wm,*|$
+5|audio/x-ms-wma|Media Files|wma,*|$
+6|audio/x-ms-wax|Media Files|wax,*|$
+7|video/x-ms-wmv|Media Files|wmv,*|$
+8|video/x-ms-wvx|Media Files|wvx,*|$
 npnul32.dll|$
 C:\Program Files\HP\LoadRunner\bin\Firefox\plugins\npnul32.dll|$
 1.0.0.15|$
-1270144700000|1|1|$
+1270144700000|1|5|$
 Default Plug-in|$
 Mozilla Default Plug-in|$
 1

@@ -5,19 +5,19 @@
                    width="994"
                    height="760"
                    sizemode="maximized" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
-                   value="LoadRunner VuGen for TruClient - mot_full.bo.ezmall.vn" />
-  <RDF:Description RDF:about="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul#lrJavaScriptDialog"
-                   width="811"
-                   height="388"
-                   screenX="203"
-                   screenY="224" />
-  <RDF:Description RDF:about="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul">
-    <NC:persist RDF:resource="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul#lrJavaScriptDialog"/>
-  </RDF:Description>
   <RDF:Description RDF:about="chrome://browser/content/browser.xul">
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
     <NC:persist RDF:resource="chrome://browser/content/browser.xul#loadRunnerSplitter"/>
   </RDF:Description>
+  <RDF:Description RDF:about="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul">
+    <NC:persist RDF:resource="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul#lrJavaScriptDialog"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://truclientui/content/ui/JavaScriptEditorDialog.xul#lrJavaScriptDialog"
+                   width="811"
+                   height="388"
+                   screenX="203"
+                   screenY="224" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
+                   value="LoadRunner VuGen for TruClient - mot_full.bo.ezmall.vn" />
 </RDF:RDF>
