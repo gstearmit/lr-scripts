@@ -13,7 +13,7 @@ user_pref("LoadRunner.Global.DontPromptOnEnter", false);
 user_pref("LoadRunner.Global.ShowAnimations", true);
 user_pref("LoadRunner.Global.ShowLineNumbers", true);
 user_pref("LoadRunner.Global.SidebarOnLeft", true);
-user_pref("LoadRunner.Global.SidebarWidth", 330);
+user_pref("LoadRunner.Global.SidebarWidth", 387);
 user_pref("LoadRunner.Global.ToolboxY", 0);
 user_pref("LoadRunner.RTS.iteration_number", 0);
 user_pref("LoadRunner.config.output_dir", "D:\\SCrtips_8_7_2013\\08_08_2013_LR11.0\\mot_full.bo.ezmall.vn\\");

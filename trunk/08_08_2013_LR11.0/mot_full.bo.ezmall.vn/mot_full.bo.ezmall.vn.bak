@@ -16,14 +16,34 @@ MinorVersion=0
 ParameterFile=mot_full.bo.ezmall.vn.prm
 GlobalParameterFile=
 LastModifyVer=11.0.0.0
-OpenOnFF=1
 [TransactionsOrder]
 Order=""
+[ExtraFiles]
+JS-functions.js=
+C-functions.c=
+globals.h=
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c
 vuser_end=vuser_end.c
 Script-View=Script-View.c
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+Script-View=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+Script-View=0
+[Modified Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+Script-View=0
+[Interpreters]
+Script-View=no
 [ProtocolsVersion]
 Web2UI=11.0.0.0
 [RunLogicFiles]
@@ -43,24 +63,3 @@ Default Profile=default.usp
 CurrentState=1
 VuserStateHistory= 0 65536 65552
 LastReplayStatus=0
-[ExtraFiles]
-JS-functions.js=
-C-functions.c=
-globals.h=
-[Recorded Actions]
-vuser_init=0
-Action=0
-vuser_end=0
-Script-View=0
-[Replayed Actions]
-vuser_init=1
-Action=1
-vuser_end=1
-Script-View=0
-[Modified Actions]
-vuser_init=0
-Action=0
-vuser_end=0
-Script-View=0
-[Interpreters]
-Script-View=no
