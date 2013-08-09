@@ -229,7 +229,7 @@
       <step type="testObject" testObject="testObj:{ccc1817a-6235-498b-a214-9538f20c6e79}" id="step:{c4c604e7-9a74-449c-b979-bbdbe2e541f8}" action="Mouse Over" level="2" index="3"/>
     </step>
     <step type="util" id="step:{8e17e316-2ce8-4fcc-9441-7486f495f133}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;6&quot;}" index="23" disabled="false"/>
-    <step type="util" id="step:{a1f06228-91e0-458c-a36f-b06a88e85360}" action="Comment" level="1" index="24" comment="loi chua chay nhap hang" disabled="false"/>
+    <step type="util" id="step:{a1f06228-91e0-458c-a36f-b06a88e85360}" action="Comment" level="1" index="24" comment="pass nhap hang" disabled="false"/>
     <step type="block" id="step:{78d661c8-e43c-439e-a138-494136a273f6}" action="Click nhap hang" level="1" index="25" disabled="false">
       <step type="testObject" testObject="testObj:{d11d1eaa-83b1-4b4c-a355-d058f2676a25}" id="step:{aac5834a-ad17-4f9e-9d8c-91777b99ea73}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:45,&quot;Y Coordinate&quot;:8}" index="1"/>
       <step type="util" id="step:{91f545d2-5826-47cd-9ba5-a3a61d158ccc}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="2"/>
@@ -247,7 +247,7 @@
       <step type="testObject" testObject="testObj:{dd2537b7-74af-4c91-9e80-0f654c4ebd29}" id="step:{0e307e27-04d4-4f68-ac5f-f117ab8dfbbf}" action="Mouse Over" level="2" index="9"/>
       <step type="testObject" testObject="testObj:{e8591d92-165e-4994-9554-41f3e0fbfe45}" id="step:{4ec5c2eb-6dc8-4105-8997-51d28ae0a0b6}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:56,&quot;Y Coordinate&quot;:12}" index="10"/>
       <step type="testObject" testObject="testObj:{c513510c-b098-4226-ab51-19a6d7294afe}" id="step:{e7e17a94-aa1f-47ab-89a5-8bf4a1216e0c}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:41,&quot;Y Coordinate&quot;:13}" index="11"/>
-      <step type="util" id="step:{2b0fe4c0-dfe5-4976-aadc-583c7ee69d6b}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;ma_nhap_hang = LR.getParam(\&quot;ma_nhap_hang\&quot;);\u000awindow.alert(ma_nhap_hang);\u000a&quot;}" index="12"/>
+      <step type="util" id="step:{2b0fe4c0-dfe5-4976-aadc-583c7ee69d6b}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;ma_nhap_hang = LR.getParam(\&quot;ma_nhap_hang\&quot;);\u000a//window.alert(ma_nhap_hang);\u000a&quot;}" index="12"/>
       <step type="testObject" testObject="testObj:{393d07a9-6248-4031-a062-e988d9fe20cb}" id="step:{d03e76d7-cef3-4df2-bc10-5d6d39308f34}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;ma_nhap_hang&quot;}" index="13"/>
       <step type="block" id="step:{5799cfcd-c05e-4e8d-b6fd-52d84b01a5ee}" action="Mouse Over" level="2" arguments="{}" index="14">
         <step type="testObject" testObject="testObj:{e55c01fa-6080-4597-9e42-965f081d9815}" id="step:{8bf41e9c-5a52-4546-9f1f-630b2e9e5268}" action="Mouse Over" level="2" index="1"/>
@@ -288,7 +288,7 @@
         <step type="testObject" testObject="testObj:{72edaf4f-b1cf-400a-9944-d07695c58c3f}" id="step:{f3b6429c-a4aa-4a16-94af-48ba5724bced}" action="Mouse Over" level="2" index="1"/>
       </step>
       <step type="util" id="step:{40db4e5b-64d9-4016-ba73-323056ef1111}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="27"/>
-      <step type="testObject" testObject="testObj:{661356d9-9e7e-48d8-a1ab-204627348de6}" id="step:{78bbf714-292c-4a85-b741-39974c819942}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:34,&quot;Y Coordinate&quot;:13}" index="28"/>
+      <step type="testObject" testObject="testObj:{603dc04c-9bdc-43d4-827b-eecf1f9f7870}" id="step:{78bbf714-292c-4a85-b741-39974c819942}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:34,&quot;Y Coordinate&quot;:13}" index="28"/>
       <step type="testObject" testObject="testObj:{452fcd77-1d30-4ebb-b113-a3a240ae8e51}" id="step:{4db124f5-451b-4bb8-afac-9f5d4e3b81c2}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:42,&quot;Y Coordinate&quot;:13}" index="29" disabled="true"/>
       <step type="util" id="step:{bf238e64-8cfa-4f77-ae4c-e7b7744b2248}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="30"/>
     </step>
@@ -298,20 +298,44 @@
       <step type="util" id="step:{d6c0bf23-7379-45f2-be84-65a3d588ab2e}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="2"/>
       <step type="testObject" testObject="testObj:{95d2a87f-9796-4ad7-8ea3-40ca036885ed}" id="step:{9461dd5c-d104-4c05-b2ad-1419f44320f4}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:53,&quot;Y Coordinate&quot;:13}" index="3"/>
       <step type="testObject" testObject="testObj:{ad11d6cb-c047-4be4-bb26-66df9d17a437}" id="step:{954d826f-7100-47e9-9375-303bdaa1cfcb}" action="Mouse Over" level="3" index="4"/>
-      <step type="testObject" testObject="testObj:{ad11d6cb-c047-4be4-bb26-66df9d17a437}" id="step:{f63b362f-468c-4719-8330-b70963222298}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;quan\&quot;&quot;}" index="5"/>
-      <step type="block" id="step:{58f25963-df90-4257-91a2-d58e5209d236}" action="Mouse Over" level="2" arguments="{}" index="6">
+      <step type="block" id="step:{e692b3be-f494-4225-a8be-cae15703156b}" action="Mouse Over" level="2" arguments="{}" index="5">
+        <step type="testObject" testObject="testObj:{45c50165-4998-49a6-b69c-9dc8eb3ca0a6}" id="step:{ce85344c-1e34-4fc2-b7d6-85c67d736360}" action="Mouse Over" level="3" index="1"/>
+        <step type="testObject" testObject="testObj:{68f705a3-a087-45aa-96bc-0abd5ceac419}" id="step:{7ec516f1-f4d5-433a-80b0-299077ec3899}" action="Mouse Over" level="2" index="2"/>
+      </step>
+      <step type="testObject" testObject="testObj:{265fdbde-c2d7-4fbd-a862-ce6fd1228282}" id="step:{e6ff3b94-4a11-4e0c-b43d-70f0364956a7}" action="Click" level="2" arguments="{&quot;X Coordinate&quot;:35,&quot;Y Coordinate&quot;:12}" index="6"/>
+      <step type="util" id="step:{c4ddea4e-b851-4285-9e37-4d436cbfd0ab}" action="Evaluate JavaScript" level="1" arguments="{&quot;Code&quot;:&quot;ma_nhap_hang = LR.getParam(\&quot;ma_nhap_hang\&quot;);\u000awindow.alert(ma_nhap_hang);\u000a&quot;}" index="7"/>
+      <step type="testObject" testObject="testObj:{b11a4c35-7ebc-4241-bc4d-43ce76049015}" id="step:{cec10faa-b1ea-4803-aecc-fd1b8670f4ad}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;ma_nhap_hang&quot;}" index="8"/>
+      <step type="block" id="step:{9cc6877f-09f0-4ed2-b9e6-54f5dd1c7fa6}" action="Mouse Over" level="2" arguments="{}" index="9">
+        <step type="testObject" testObject="testObj:{74cd47d8-fcee-4cfe-97af-a0b6cfbbdf99}" id="step:{31593ccd-1b0b-4eb2-a193-8d17966d2402}" action="Mouse Over" level="2" index="1"/>
+      </step>
+      <step type="alternative" id="step:{dc39de20-6e22-4038-8a60-7143c7820116}" action="Select" level="1" activeStep="0" index="10">
+        <step type="testObject" testObject="testObj:{042cbf1d-ae79-4b5b-af33-3774f465a837}" id="step:{b1e8d8db-734f-49d6-9e33-876c066716d2}" action="Click" level="43" arguments="{}"/>
+        <step type="testObject" testObject="testObj:{b640183e-e151-4ba6-bc06-777b0b824aca}" id="step:{c51898c8-cf4a-4f67-be86-4b3885fcdc01}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:4}"/>
+        <step type="testObject" testObject="testObj:{042cbf1d-ae79-4b5b-af33-3774f465a837}" id="step:{bc904c00-1ac2-4783-a602-da7f29a8fb39}" action="Click" level="43" arguments="{&quot;X Coordinate&quot;:62,&quot;Y Coordinate&quot;:8}"/>
+      </step>
+      <step type="util" id="step:{bc3fef26-845a-49d0-9fde-8a351bcc0bf0}" action="Wait" level="1" arguments="{&quot;Interval&quot;:&quot;5&quot;}" index="11"/>
+      <step type="testObject" testObject="testObj:{4e828108-1ccc-4bf6-a620-645f014b0d0f}" id="step:{8f7d5dd2-22e1-4187-963a-e47e98f30050}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:21,&quot;Y Coordinate&quot;:11}" index="12"/>
+      <step type="block" id="step:{1a18d74e-dfaf-41a2-8564-2b0984ecf1e0}" action="Mouse Over" level="2" arguments="{}" index="13">
+        <step type="testObject" testObject="testObj:{aec197d9-46c0-4fca-8ccf-eea9b8bd0485}" id="step:{8bb7108c-db0c-4fad-82de-8f943e22acdc}" action="Mouse Over" level="3" index="1"/>
+        <step type="testObject" testObject="testObj:{cf22fd51-fb06-42cc-a1a8-70afee6ab95f}" id="step:{98f0c5f0-3411-424d-b091-fd57b366c85e}" action="Mouse Over" level="2" index="2"/>
+        <step type="testObject" testObject="testObj:{c74819c1-de66-4411-8fb4-c99e78ec89a4}" id="step:{b4fef58c-a292-43cb-b470-5b6f10fa402c}" action="Mouse Over" level="2" index="3"/>
+        <step type="testObject" testObject="testObj:{91f43c62-0294-4a59-acf6-0c6edf987db1}" id="step:{cbc3dff5-008e-4c33-80af-3bc17af04576}" action="Mouse Over" level="3" index="4"/>
+      </step>
+      <step type="testObject" testObject="testObj:{63c049b8-1509-481b-91e3-307d7bfbb013}" id="step:{545f5b7c-749f-4fdf-815c-6990255c9548}" action="Mouse Over" level="3" index="14"/>
+      <step type="testObject" testObject="testObj:{9037d31b-3264-430c-af50-e4a588f58318}" id="step:{f63b362f-468c-4719-8330-b70963222298}" action="Type" level="1" arguments="{&quot;Value&quot;:&quot;\&quot;quan\&quot;&quot;}" index="15" disabled="true"/>
+      <step type="block" id="step:{58f25963-df90-4257-91a2-d58e5209d236}" action="Mouse Over" level="2" arguments="{}" index="16">
         <step type="testObject" testObject="testObj:{18480dc1-1177-426f-ab43-e2612fd8a8f0}" id="step:{44610cb3-8f73-45be-9425-ccd667637986}" action="Mouse Over" level="2" index="1"/>
       </step>
-      <step type="alternative" id="step:{c582755e-e5ed-4b4e-bcdf-7d38ef7f04d6}" action="Select" level="1" activeStep="0" index="7">
-        <step type="testObject" testObject="testObj:{879824b2-f308-4dbe-9d02-f9203387b456}" id="step:{fa33d196-4ace-4fcb-9c86-41052d2e2b0e}" action="Select" level="43" arguments="{&quot;Text&quot;:&quot;\&quot;2223213-quan bo\&quot;&quot;}"/>
+      <step type="alternative" id="step:{c582755e-e5ed-4b4e-bcdf-7d38ef7f04d6}" action="Select" level="1" activeStep="0" index="17" disabled="true">
+        <step type="testObject" testObject="testObj:{879824b2-f308-4dbe-9d02-f9203387b456}" id="step:{fa33d196-4ace-4fcb-9c86-41052d2e2b0e}" action="Select" level="43" arguments="{&quot;Text&quot;:&quot;\&quot;2223213-quan bo\&quot;&quot;}" disabled="true"/>
         <step type="testObject" testObject="testObj:{879824b2-f308-4dbe-9d02-f9203387b456}" id="step:{591e252a-703a-4453-a382-ffa235499796}" action="Select" level="43" arguments="{&quot;Ordinal&quot;:4}"/>
         <step type="testObject" testObject="testObj:{042cbf1d-ae79-4b5b-af33-3774f465a837}" id="step:{8132a4fe-e1d0-484a-b08e-7cc6a28106de}" action="Click" level="43" arguments="{&quot;X Coordinate&quot;:48,&quot;Y Coordinate&quot;:11}"/>
       </step>
-      <step type="block" id="step:{e0b99935-b524-4c72-8f09-e4f0b6e2b80e}" action="Mouse Over" level="2" arguments="{}" index="8">
+      <step type="block" id="step:{e0b99935-b524-4c72-8f09-e4f0b6e2b80e}" action="Mouse Over" level="2" arguments="{}" index="18">
         <step type="testObject" testObject="testObj:{61bae65c-d073-4be7-b5b1-aa3eadc8c60c}" id="step:{8980885f-1d1e-41f5-85b2-7ab3096152f2}" action="Mouse Over" level="2" index="1"/>
         <step type="testObject" testObject="testObj:{ce8b0346-8766-4beb-a35c-efa7f250c1a4}" id="step:{6e1dea28-1cf0-4192-a0a7-5f3c3147eec2}" action="Mouse Over" level="2" index="2"/>
       </step>
-      <step type="testObject" testObject="testObj:{6bc4d216-1d71-4fdf-8aba-ce7bc4a2c8e5}" id="step:{f6dc48e6-9acb-4c99-9a25-466146eca27c}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:44,&quot;Y Coordinate&quot;:13}" index="9"/>
+      <step type="testObject" testObject="testObj:{6bc4d216-1d71-4fdf-8aba-ce7bc4a2c8e5}" id="step:{f6dc48e6-9acb-4c99-9a25-466146eca27c}" action="Click" level="1" arguments="{&quot;X Coordinate&quot;:44,&quot;Y Coordinate&quot;:13}" index="19" disabled="true"/>
     </step>
     <step type="util" id="step:{569a661b-3e30-4428-84c5-0deec8f56a1a}" action="Wait" level="1" arguments="{&quot;Interval&quot;:3}" index="28" disabled="false"/>
     <step type="util" id="step:{8735604c-0f5b-48f4-a434-865355969c24}" action="Comment" level="1" index="29" comment="THU CHI" disabled="false"/>
@@ -5236,40 +5260,6 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"dQRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[7]/td/div/div[3]/table/tbody[2]/tr[2]/td[5]"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{c82df496-6313-471d-9960-89472d6e039c}" autoName="Thanh toán"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.59229325,
-"contextChanged":true,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(29, 102, 186) 0%, rgb(28, 83, 143))", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":20,
-				"maxObjsPerElector":200,
-				"total":{
-						"leaf":null,
-						"style/background-image":null,
-						"text":1,
-						"class":20,
-						"tagName":329
-				},
-				"secondaryScore":0.3204855451125,
-				"totalCandidates":20
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"dQRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[7]/td/div/div[3]/table/tbody[2]/tr[4]/td[3]/div/div/span[3]/table/tbody/tr[2]/td[2]"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{72edaf4f-b1cf-400a-9944-d07695c58c3f}" autoName="z modal mask"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.47515645,
 "implData":{
@@ -5302,55 +5292,6 @@ setValue:function (value) {
 "primaryScore":1,
 "implData":{
 	"value":"/html/body/div[3]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{661356d9-9e7e-48d8-a1ab-204627348de6}" autoName="Thanh toán"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.520345,
-"contextObj":"testObj:{a403fcc3-3b6b-4289-9639-9f60804b0c6c}",
-"contextChanged":true,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":22,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":2,
-						"class":22,
-						"tagName":365,
-						"leaf":null
-				},
-				"secondaryScore":0.52033979655,
-				"similarPrimaryScore":0.52033979655,
-				"similarSecondaryScore":0.20057299425000003,
-				"similarTotal":2,
-				"similarOrdinal":1,
-				"totalCandidates":22
-		},
-		"testObj:{a403fcc3-3b6b-4289-9639-9f60804b0c6c}":{
-				"totalObjs":9,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":1,
-						"class":1,
-						"tagName":9,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[4]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]/table/tbody/tr[2]/td[2]"
 }
 }]]></ident></idents></testObject><testObject id="testObj:{452fcd77-1d30-4ebb-b113-a3a240ae8e51}" autoName="Đóng"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.59229325,
@@ -5404,10 +5345,10 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 		{ "id" : "id", "value" : {"id":"Label_1151-body","isValidWord":true}, "score" : 0.3 }, 
 		{ "id" : "class", "value" : "z-grid-body", "score" : 0.15 }, 
 		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -5604,12 +5545,12 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0.2,
 	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Label_961","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-columns", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"STTThao tácMã vạchTên sản phẩmĐơn vị bánGiá vốnSL tồnThực tếChênh lệch","tagName":"TR"}, "score" : 0.4 }, 
 		{ "id" : "tr/cols", "value" : 0, "score" : 0.05 }, 
 		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "class", "value" : "z-columns", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"STTThao tácMã vạchTên sản phẩmĐơn vị bánGiá vốnSL tồnThực tếChênh lệch","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "id", "value" : {"id":"Label_961","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -5739,9 +5680,9 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TABLE"}, "score" : 0.4 }, 
 		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -5895,10 +5836,10 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
 		{ "id" : "id", "value" : {"id":"Include_1","isValidWord":true}, "score" : 0.3 }, 
 		{ "id" : "class", "value" : "z-include", "score" : 0.15 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -10065,39 +10006,6 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"qMRQ_\"]/div[1]/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[2]/td/div"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{cf7182b1-cea1-4e88-b5a0-19fc970ac1fc}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "text", "value" : {"text":"In mã vạch Lưu Thanh toán Ghi nợ Xuất Pdf In Phiếu","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "id", "value" : {"id":"Row_2","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-div", "score" : 0.15 }, 
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":30,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":1,
-						"id":8,
-						"class":23,
-						"tagName":246,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"wMRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[7]/td/div/div[3]/table/tbody[2]/tr[4]/td[3]/div/div"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{97ceb617-1d70-4934-94fd-c86a942f2d48}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.463915,
 "implData":{
@@ -10918,10 +10826,10 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
 		{ "id" : "class", "value" : "z-combobox-inp z-combobox-readonly z-combobox-text-disd", "score" : 0.15 }, 
 		{ "id" : "input/type", "value" : "text", "score" : 0.05 }, 
 		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -10971,11 +10879,11 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
 		{ "id" : "text", "value" : {"text":"Nhập hàng","tagName":"DIV"}, "score" : 0.4 }, 
 		{ "id" : "id", "value" : {"id":"Label_42-cave","isValidWord":true}, "score" : 0.3 }, 
 		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
 		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -11004,11 +10912,11 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0.4,
 	"electors":[
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
 		{ "id" : "id", "value" : {"id":"Vbox_11","isValidWord":false}, "score" : 0.2 }, 
 		{ "id" : "class", "value" : "z-combobox z-combobox-disd z-combobox-real-readonly", "score" : 0.15 }, 
 		{ "id" : "tagName", "value" : "I", "score" : 0.01 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -11032,519 +10940,15 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"pSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[1]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[5]/i"
 }
-}]]></ident></idents></testObject><testObject id="testObj:{a403fcc3-3b6b-4289-9639-9f60804b0c6c}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{cf7182b1-cea1-4e88-b5a0-19fc970ac1fc}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"SPAN"}, "score" : 0.4 }, 
-		{ "id" : "id", "value" : {"id":"Label_48","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "tagName", "value" : "SPAN", "score" : 0.01 }, 
-		{ "id" : "class", "value" : "btnBlue z-button", "score" : 0.15 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":141,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":63,
-						"id":59,
-						"class":44,
-						"text":2,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":20
-		},
-		"testObj:{cf7182b1-cea1-4e88-b5a0-19fc970ac1fc}":{
-				"totalObjs":13,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":6,
-						"id":5,
-						"class":12,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":5
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"sSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]/div/span[3]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{4bacb32a-05c3-4700-9d4f-51ca00e4245b}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.68509387,
-"implData":{
-	"ctxScore":0.5,
-	"electors":[
-		{ "id" : "class", "value" : "z-window-modal z-window-modal-shadow", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán Số tiền TTTiền mặtTiền thừaThanh toánHủy","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "id", "value" : {"id":"Detail_8","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "position", "value" : "absolute", "score" : 0.1 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":7,
-				"maxObjsPerElector":200,
-				"total":{
-						"class":1,
-						"text":1,
-						"id":7,
-						"tagName":248,
-						"leaf":null,
-						"position":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{e06c78b5-29fb-4db2-b94a-ef2cf4cb8a7c}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.5711320000000001,
-"contextObj":"testObj:{4bacb32a-05c3-4700-9d4f-51ca00e4245b}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Tabpanel_2","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toánHủy","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 2, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":156,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":154,
-						"id":3,
-						"text":1,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.007249927499999999,
-				"totalCandidates":12
-		},
-		"testObj:{4bacb32a-05c3-4700-9d4f-51ca00e4245b}":{
-				"totalObjs":13,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":12,
-						"id":2,
-						"text":1,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.007249927499999999,
-				"totalCandidates":2
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{71e476ba-1042-4646-8c34-13e09a58fd01}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.463915,
-"contextObj":"testObj:{e06c78b5-29fb-4db2-b94a-ef2cf4cb8a7c}",
-"implData":{
-	"ctxScore":0.2,
-	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TR"}, "score" : 0.4 }, 
-		{ "id" : "tr/cols", "value" : 3, "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":154,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":154,
-						"text":2,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.46391036085000004,
-				"similarPrimaryScore":0.46391036085000004,
-				"similarSecondaryScore":0.10652393475000001,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":75
-		},
-		"testObj:{e06c78b5-29fb-4db2-b94a-ef2cf4cb8a7c}":{
-				"totalObjs":6,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":6,
-						"text":1,
-						"tr/cols":null,
-						"leaf":null
-				},
-				"secondaryScore":0.10652393475000001,
-				"totalCandidates":6
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]/table/tbody/tr[2]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{27e9f676-4599-43c9-beb6-5449a9d1e867}" autoName="Thanh toán"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.59229325,
-"contextObj":"testObj:{4bacb32a-05c3-4700-9d4f-51ca00e4245b}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
-		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(215, 215, 215) 0%, rgb(153, 153, 153))", "score" : 0.15 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":22,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":2,
-						"class":22,
-						"tagName":365,
-						"leaf":null,
-						"style/background-image":null
-				},
-				"secondaryScore":0.52033979655,
-				"similarPrimaryScore":0.52033979655,
-				"similarSecondaryScore":0.3204855451125,
-				"similarTotal":2,
-				"similarOrdinal":2,
-				"totalCandidates":22
-		},
-		"testObj:{4bacb32a-05c3-4700-9d4f-51ca00e4245b}":{
-				"totalObjs":30,
-				"maxObjsPerElector":200,
-				"total":{
-						"text":1,
-						"class":2,
-						"tagName":30,
-						"leaf":null,
-						"style/background-image":null
-				},
-				"secondaryScore":0.3204855451125,
-				"totalCandidates":4
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]/table/tbody/tr[2]/td[2]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{63ef0fad-1a85-4296-88c5-f6a745a78206}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.5834575000000001,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"vSRQ_","isValidWord":true}, "score" : 0.5 }, 
-		{ "id" : "class", "value" : "z-page", "score" : 0.15 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":1,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":224,
-						"id":1,
-						"class":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{d6793937-f177-4479-a776-c56081cb7db6}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.47515645,
-"contextObj":"testObj:{63ef0fad-1a85-4296-88c5-f6a745a78206}",
-"implData":{
-	"ctxScore":0.5,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Center_1-real","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-center", "score" : 0.15 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-		{ "id" : "position", "value" : "absolute", "score" : 0.1 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":1,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":224,
-						"id":1,
-						"class":1,
-						"leaf":null,
-						"position":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		},
-		"testObj:{63ef0fad-1a85-4296-88c5-f6a745a78206}":{
-				"totalObjs":1,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":223,
-						"id":1,
-						"class":1,
-						"leaf":null,
-						"position":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{abc7daac-285e-43de-ad96-5bee56274814}"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.54856,
-"contextObj":"testObj:{d6793937-f177-4479-a776-c56081cb7db6}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "id", "value" : {"id":"Label_69-chdex","isValidWord":false}, "score" : 0.2 }, 
-		{ "id" : "text", "value" : {"text":"In mã vạch Lưu Thanh toán Ghi nợ Xuất Pdf In Phiếu","tagName":"TD"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":31,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":335,
-						"id":31,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.24759752399999999,
-				"totalCandidates":22
-		},
-		"testObj:{d6793937-f177-4479-a776-c56081cb7db6}":{
-				"totalObjs":26,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":275,
-						"id":26,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.24759752399999999,
-				"totalCandidates":17
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{c59b8153-0cc2-4e3b-a05c-f9a9f0ba3f2a}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{abc7daac-285e-43de-ad96-5bee56274814}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_69","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "z-div", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"In mã vạch Lưu Thanh toán Ghi nợ Xuất Pdf In Phiếu","tagName":"DIV"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":86,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":224,
-						"id":69,
-						"class":21,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":9
-		},
-		"testObj:{abc7daac-285e-43de-ad96-5bee56274814}":{
-				"totalObjs":12,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":7,
-						"id":6,
-						"class":1,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0,
-				"totalCandidates":1
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]/div"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{a9bf7399-b7cf-4429-abaf-157285b5e3ff}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.6501043000000001,
-"contextObj":"testObj:{abc7daac-285e-43de-ad96-5bee56274814}",
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "SPAN", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_72","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "class", "value" : "btnBlue z-button", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"SPAN"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":134,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":57,
-						"id":69,
-						"class":40,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":24
-		},
-		"testObj:{abc7daac-285e-43de-ad96-5bee56274814}":{
-				"totalObjs":14,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":6,
-						"id":6,
-						"class":12,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.416836331595,
-				"totalCandidates":5
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]/div/span[3]"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{aa4d540c-a909-4230-946e-00a4028fe0f2}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.588358,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
-		{ "id" : "id", "value" : {"id":"Label_72-box","isValidWord":true}, "score" : 0.3 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TABLE"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":63,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":63,
-						"id":8,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.3139268607,
-				"totalCandidates":8
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]/div/span[3]/table"
-}
-}]]></ident></idents></testObject><testObject id="testObj:{f8e1a931-fffd-46e9-a5d2-4d88af27508d}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
-"primaryScore":0.41194000000000003,
-"implData":{
-	"ctxScore":0,
-	"electors":[
-		{ "id" : "tagName", "value" : "TBODY", "score" : 0.01 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TBODY"}, "score" : 0.4 }, 
-		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
-	],
-	"secondaryData":{
-		"default":{
-				"totalObjs":70,
-				"maxObjsPerElector":200,
-				"total":{
-						"tagName":70,
-						"text":1,
-						"leaf":null
-				},
-				"secondaryScore":0.019899801,
-				"totalCandidates":68
-		}
-},
-
-}
-}]]></ident><ident type="XPath"><![CDATA[{
-"primaryScore":1,
-"implData":{
-	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]/div/span[3]/table/tbody"
-}
 }]]></ident></idents></testObject><testObject id="testObj:{1e07372a-1714-4e1b-9e69-1dc5e2f2fda6}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
 "primaryScore":0.463915,
 "implData":{
 	"ctxScore":0.2,
 	"electors":[
-		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TR"}, "score" : 0.4 }, 
 		{ "id" : "tr/cols", "value" : 3, "score" : 0.05 }, 
 		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -11573,11 +10977,11 @@ setValue:function (value) {
 "implData":{
 	"ctxScore":0,
 	"electors":[
-		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
-		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
-		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TD"}, "score" : 0.4 }, 
 		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
 		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(29, 102, 186) 0%, rgb(28, 83, 143))", "score" : 0.15 }, 
+		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
 	],
 	"secondaryData":{
 		"default":{
@@ -11614,6 +11018,820 @@ setValue:function (value) {
 "implData":{
 	"value":"descendant::div[@id=\"vSRQ_\"]/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[11]/td/table/tbody/tr/td/table/tbody/tr/td[3]/div/span[3]/table/tbody/tr[2]/td[2]"
 }
-}]]></ident></idents></testObject></testObjects>
+}]]></ident></idents></testObject><testObject id="testObj:{603dc04c-9bdc-43d4-827b-eecf1f9f7870}" autoName="Thanh toán"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.59229325,
+"contextChanged":true,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"Thanh toán","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(215, 215, 215) 0%, rgb(153, 153, 153))", "score" : 0.15 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":22,
+				"maxObjsPerElector":200,
+				"total":{
+						"text":2,
+						"class":22,
+						"tagName":365,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.52033979655,
+				"similarPrimaryScore":0.52033979655,
+				"similarSecondaryScore":0.3204855451125,
+				"similarTotal":2,
+				"similarOrdinal":2,
+				"totalCandidates":22
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[3]/div[3]/div/div/div/div/div[2]/div/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr[4]/td[2]/span[1]/table/tbody/tr[2]/td[2]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{34d2fe6c-0a93-4fa9-a60f-6ff309c4936a}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.463915,
+"implData":{
+	"ctxScore":0.2,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"ThêmChọn SP","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
+		{ "id" : "tr/cols", "value" : 9, "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":123,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":123,
+						"text":3,
+						"tr/cols":null,
+						"leaf":null
+				},
+				"secondaryScore":0.19385520428571432,
+				"totalCandidates":5
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aORQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{9037d31b-3264-430c-af50-e4a588f58318}" autoName="Chuyển kho nội bộ"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.49636225,
+"contextObj":"testObj:{34d2fe6c-0a93-4fa9-a60f-6ff309c4936a}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "id", "value" : {"id":"Label_125-real","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-combobox-inp", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
+		{ "id" : "input/type", "value" : "text", "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":30,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":12,
+						"id":13,
+						"class":3,
+						"input/type":11,
+						"leaf":null
+				},
+				"secondaryScore":0.49635728637750004,
+				"similarPrimaryScore":0.49635728637750004,
+				"similarSecondaryScore":0,
+				"similarTotal":3,
+				"similarOrdinal":2,
+				"totalCandidates":3
+		},
+		"testObj:{34d2fe6c-0a93-4fa9-a60f-6ff309c4936a}":{
+				"totalObjs":4,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":3,
+						"id":2,
+						"class":2,
+						"input/type":3,
+						"leaf":null
+				},
+				"secondaryScore":0.49635728637750004,
+				"similarPrimaryScore":0.49635728637750004,
+				"similarSecondaryScore":0,
+				"similarTotal":2,
+				"similarOrdinal":1,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aORQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/i/input"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function () {
+    return this.object.value;
+},
+setValue:function (value) {
+    this.object.value = value;
+},
+}]]></methods></testObject><testObject id="testObj:{45c50165-4998-49a6-b69c-9dc8eb3ca0a6}" autoName="Nhập tồn đầu kỳ"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6001192000000001,
+"contextObj":"testObj:{106b7368-2330-4e24-8402-0b93b1657742}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Listcell_8-cave","isValidWord":false}, "score" : 0.2 }, 
+		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Nhập tồn đầu kỳ","tagName":"DIV"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":8,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":203,
+						"id":3,
+						"class":7,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0.3335286646800001,
+				"totalCandidates":7
+		},
+		"testObj:{106b7368-2330-4e24-8402-0b93b1657742}":{
+				"totalObjs":16,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":16,
+						"id":2,
+						"class":7,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0.3335286646800001,
+				"totalCandidates":7
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[7]/td/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{68f705a3-a087-45aa-96bc-0abd5ceac419}" autoName="Xuất kho"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6623228800000001,
+"implData":{
+	"ctxScore":0.4,
+	"electors":[
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "id", "value" : {"id":"Listcell_7","isValidWord":false}, "score" : 0.2 }, 
+		{ "id" : "class", "value" : "z-listcell", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Xuất kho","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":8,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":260,
+						"id":3,
+						"class":7,
+						"text":1,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0.43720042795200004,
+				"totalCandidates":7
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[6]/td"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{a57d2337-3859-418c-ab40-886326378ffa}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043000000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"ThêmChọn SP","tagName":"TABLE"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-hbox", "score" : 0.15 }, 
+		{ "id" : "id", "value" : {"id":"Button_27","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":92,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":59,
+						"id":21,
+						"class":14,
+						"text":2,
+						"leaf":null
+				},
+				"secondaryScore":0.03738708724832215,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{265fdbde-c2d7-4fbd-a862-ce6fd1228282}" autoName="Chuyển kho nội bộ"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.49636225,
+"contextObj":"testObj:{a57d2337-3859-418c-ab40-886326378ffa}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "id", "value" : {"id":"Div_54-real","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-combobox-inp", "score" : 0.15 }, 
+		{ "id" : "input/type", "value" : "text", "score" : 0.05 }, 
+		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":28,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":12,
+						"id":5,
+						"class":3,
+						"input/type":11,
+						"leaf":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		},
+		"testObj:{a57d2337-3859-418c-ab40-886326378ffa}":{
+				"totalObjs":6,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":3,
+						"id":1,
+						"class":2,
+						"input/type":3,
+						"leaf":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/i/input"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function () {
+    return this.object.value;
+},
+setValue:function (value) {
+    this.object.value = value;
+},
+}]]></methods></testObject><testObject id="testObj:{74cd47d8-fcee-4cfe-97af-a0b6cfbbdf99}" autoName="12345097777 Quần Trâu"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.5203450000000001,
+"contextObj":"testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "class", "value" : "z-comboitem-text", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":" Quần Trâu","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":16,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":280,
+						"class":16,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0.20057299425000003,
+				"totalCandidates":16
+		},
+		"testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}":{
+				"totalObjs":20,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":20,
+						"class":10,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0.20057299425000003,
+				"totalCandidates":10
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[2]/table/tbody/tr[2]/td[2]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{b640183e-e151-4ba6-bc06-777b0b824aca}" autoName="Chuyển kho nội bộ"><roles><role>element</role><role>listbox</role><role>autocomplete</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.0199,
+"contextObj":"testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "TBODY", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":62,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":62,
+						"leaf":null
+				},
+				"secondaryScore":0.019899801,
+				"similarPrimaryScore":0.019899801,
+				"similarSecondaryScore":0,
+				"similarTotal":61,
+				"similarOrdinal":61,
+				"totalCandidates":61
+		},
+		"testObj:{b1040c52-1841-4639-93ce-a9bbd454ad8c}":{
+				"totalObjs":1,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":1,
+						"leaf":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"/html/body/div[2]/table/tbody"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{4e828108-1ccc-4bf6-a620-645f014b0d0f}" autoName="Thêm"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.59229325,
+"contextObj":"testObj:{d28d7de7-49ae-48a3-8540-16836f101708}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(215, 215, 215) 0%, rgb(153, 153, 153))", "score" : 0.15 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":16,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":282,
+						"class":15,
+						"text":2,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.3204855451125,
+				"totalCandidates":16
+		},
+		"testObj:{d28d7de7-49ae-48a3-8540-16836f101708}":{
+				"totalObjs":3,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":3,
+						"class":1,
+						"text":1,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.1117488825,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]/span/table/tbody/tr[2]/td[2]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{aec197d9-46c0-4fca-8ccf-eea9b8bd0485}" autoName="Thêm"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.59229325,
+"contextObj":"testObj:{d28d7de7-49ae-48a3-8540-16836f101708}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(215, 215, 215) 0%, rgb(153, 153, 153))", "score" : 0.15 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":16,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":282,
+						"class":15,
+						"text":2,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.3204855451125,
+				"totalCandidates":16
+		},
+		"testObj:{d28d7de7-49ae-48a3-8540-16836f101708}":{
+				"totalObjs":3,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":3,
+						"class":1,
+						"text":1,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.1117488825,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]/span/table/tbody/tr[2]/td[2]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{cf22fd51-fb06-42cc-a1a8-70afee6ab95f}" autoName="Thêm"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.59229325,
+"contextObj":"testObj:{d28d7de7-49ae-48a3-8540-16836f101708}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "class", "value" : "z-button-cm", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Thêm","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+		{ "id" : "style/background-image", "value" : "-moz-linear-gradient(50% 0%, rgb(215, 215, 215) 0%, rgb(153, 153, 153))", "score" : 0.15 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":16,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":269,
+						"class":15,
+						"text":2,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.3204855451125,
+				"totalCandidates":16
+		},
+		"testObj:{d28d7de7-49ae-48a3-8540-16836f101708}":{
+				"totalObjs":3,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":3,
+						"class":1,
+						"text":1,
+						"leaf":null,
+						"style/background-image":null
+				},
+				"secondaryScore":0.1117488825,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[7]/span/table/tbody/tr[2]/td[2]"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{c74819c1-de66-4411-8fb4-c99e78ec89a4}" autoName="Chuyển kho nội bộ"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043000000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "tagName", "value" : "DIV", "score" : 0.01 }, 
+		{ "id" : "id", "value" : {"id":"Label_46-cave","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-listcell-cnt z-overflow-hidden", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Chuyển kho nội bộ","tagName":"DIV"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":25,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":212,
+						"id":14,
+						"class":16,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0.416836331595,
+				"totalCandidates":13
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[5]/td/div"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{91f43c62-0294-4a59-acf6-0c6edf987db1}" autoName="Hủy hàng"><roles><role>element</role><role>gridcell</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.7045325199999999,
+"implData":{
+	"ctxScore":0.4,
+	"electors":[
+		{ "id" : "tagName", "value" : "TD", "score" : 0.05 }, 
+		{ "id" : "id", "value" : {"id":"Label_45","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "class", "value" : "z-listcell", "score" : 0.15 }, 
+		{ "id" : "text", "value" : {"text":"Hủy hàng","tagName":"TD"}, "score" : 0.4 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+		{ "id" : "border", "value" : {"top":1,"right":1,"bottom":1,"left":1}, "score" : 0.12 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":63,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":269,
+						"id":61,
+						"class":7,
+						"text":1,
+						"leaf":null,
+						"border":null
+				},
+				"secondaryScore":0.5075491244579999,
+				"totalCandidates":5
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"aPRQ_\"]/div[1]/div/div[3]/div[1]/div[2]/div/div/div/div/div/table/tbody[1]/tr[4]/td"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{a7db445b-a319-4510-a4fe-1d55b053749b}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6501043000000001,
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "id", "value" : {"id":"Rows_1","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "text", "value" : {"text":" Kho bán Kho lưu Kho thẻ Kho nguyên liệu a bThêmChọn SP","tagName":"TABLE"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-vbox", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":64,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":59,
+						"id":2,
+						"class":5,
+						"text":2,
+						"leaf":null
+				},
+				"secondaryScore":0.03738708724832215,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"eQRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{78c0ce41-fec0-4e10-8995-96fb4b038bb7}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.588358,
+"contextObj":"testObj:{a7db445b-a319-4510-a4fe-1d55b053749b}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "id", "value" : {"id":"Rows_1-real","isValidWord":true}, "score" : 0.3 }, 
+		{ "id" : "text", "value" : {"text":" Kho bán Kho lưu Kho thẻ Kho nguyên liệu a bThêmChọn SP","tagName":"TABLE"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":59,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":59,
+						"id":1,
+						"text":2,
+						"leaf":null
+				},
+				"secondaryScore":0.15991268657142862,
+				"totalCandidates":2
+		},
+		"testObj:{a7db445b-a319-4510-a4fe-1d55b053749b}":{
+				"totalObjs":10,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":10,
+						"id":1,
+						"text":1,
+						"leaf":null
+				},
+				"secondaryScore":0,
+				"totalCandidates":1
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"eQRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{7314e3d8-0147-45bd-8e68-61ac51e0dca2}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.6001192000000001,
+"contextObj":"testObj:{78c0ce41-fec0-4e10-8995-96fb4b038bb7}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "id", "value" : {"id":"Datebox_2","isValidWord":false}, "score" : 0.2 }, 
+		{ "id" : "text", "value" : {"text":"ThêmChọn SP","tagName":"TABLE"}, "score" : 0.4 }, 
+		{ "id" : "class", "value" : "z-hbox", "score" : 0.15 }, 
+		{ "id" : "tagName", "value" : "TABLE", "score" : 0.01 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":60,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":59,
+						"id":2,
+						"class":14,
+						"text":2,
+						"leaf":null
+				},
+				"secondaryScore":0.27480302330743617,
+				"totalCandidates":15
+		},
+		"testObj:{78c0ce41-fec0-4e10-8995-96fb4b038bb7}":{
+				"totalObjs":10,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":9,
+						"id":2,
+						"class":2,
+						"text":2,
+						"leaf":null
+				},
+				"secondaryScore":0.27480302330743617,
+				"totalCandidates":3
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"eQRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{711f4626-7301-4e72-9709-bf866c42b3de}"><roles><role>element</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.463915,
+"contextObj":"testObj:{7314e3d8-0147-45bd-8e68-61ac51e0dca2}",
+"implData":{
+	"ctxScore":0.2,
+	"electors":[
+		{ "id" : "text", "value" : {"text":"ThêmChọn SP","tagName":"TR"}, "score" : 0.4 }, 
+		{ "id" : "tagName", "value" : "TR", "score" : 0.05 }, 
+		{ "id" : "tr/cols", "value" : 9, "score" : 0.05 }, 
+		{ "id" : "leaf", "value" : false, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":123,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":123,
+						"text":3,
+						"tr/cols":null,
+						"leaf":null
+				},
+				"secondaryScore":0.19385520428571432,
+				"totalCandidates":5
+		},
+		"testObj:{7314e3d8-0147-45bd-8e68-61ac51e0dca2}":{
+				"totalObjs":8,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":8,
+						"text":2,
+						"tr/cols":null,
+						"leaf":null
+				},
+				"secondaryScore":0.19385520428571432,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"eQRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr"
+}
+}]]></ident></idents></testObject><testObject id="testObj:{b11a4c35-7ebc-4241-bc4d-43ce76049015}" autoName="Kiểm kho"><roles><role>element</role><role>focusable</role><role>textbox</role></roles><idents active="Electors"><ident type="Electors"><![CDATA[{
+"primaryScore":0.424414,
+"contextObj":"testObj:{711f4626-7301-4e72-9709-bf866c42b3de}",
+"implData":{
+	"ctxScore":0,
+	"electors":[
+		{ "id" : "class", "value" : "z-combobox-inp", "score" : 0.15 }, 
+		{ "id" : "id", "value" : {"id":"Hbox_10-real","isValidWord":false}, "score" : 0.2 }, 
+		{ "id" : "input/type", "value" : "text", "score" : 0.05 }, 
+		{ "id" : "tagName", "value" : "INPUT", "score" : 0.1 }, 
+		{ "id" : "leaf", "value" : true, "score" : 0.01 }, 
+	],
+	"secondaryData":{
+		"default":{
+				"totalObjs":25,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":12,
+						"id":6,
+						"class":3,
+						"input/type":11,
+						"leaf":null
+				},
+				"secondaryScore":0.20057299425000003,
+				"totalCandidates":3
+		},
+		"testObj:{711f4626-7301-4e72-9709-bf866c42b3de}":{
+				"totalObjs":4,
+				"maxObjsPerElector":200,
+				"total":{
+						"tagName":3,
+						"id":1,
+						"class":2,
+						"input/type":3,
+						"leaf":null
+				},
+				"secondaryScore":0.20057299425000003,
+				"totalCandidates":2
+		}
+},
+
+}
+}]]></ident><ident type="XPath"><![CDATA[{
+"primaryScore":1,
+"implData":{
+	"value":"descendant::div[@id=\"eQRQ_\"]/div[1]/div/div[4]/div/div/div/div/div/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/table/tbody/tr/td/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr/td[1]/i/input"
+}
+}]]></ident></idents><methods><![CDATA[{getValue:function () {
+    return this.object.value;
+},
+setValue:function (value) {
+    this.object.value = value;
+},
+}]]></methods></testObject></testObjects>
 <transactions/>
 </truScript>

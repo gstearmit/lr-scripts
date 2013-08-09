@@ -105,13 +105,13 @@ F(){
 	20	Action:Thao Tac KHO
 	21	Action:Click on KHO
 	23	Action:Wait 6 seconds
-	24	Action:loi chua chay nhap hang
+	24	Action:pass nhap hang
 	25	Action:Click nhap hang
 	25.1	Action:Click on Nhập hàng
 	25.2	Action:Wait 3 seconds
 	25.3	Action:Click on Thêm mới gridcell
 	25.12	Action:Evaluate JS ma_nhap_hang = LR.getParam("ma_nhap_hang");
-window.alert(ma_nhap_hang);
+//window.alert(ma_nhap_hang);
 	25.13	Action:Type ma_nhap_hang in Kiểm kho textbox
 	25.15	Action:Click on 2223213 quan bo gridcell
 	25.18	Action:Type "quan bo" in Hủy hàng textbox
@@ -129,9 +129,15 @@ window.alert(ma_nhap_hang);
 	27.1	Action:Click on Kiểm kho
 	27.2	Action:Wait 3 seconds
 	27.3	Action:Click on Thêm mới gridcell
-	27.5	Action:Type "quan" in Hủy hàng textbox
-	27.7	Action:Select "2223213-quan bo" from Hủy hàng autocomplete
-	27.9	Action:Click on Thêm gridcell
+	27.7	Action:Evaluate JS ma_nhap_hang = LR.getParam("ma_nhap_hang");
+window.alert(ma_nhap_hang);
+	27.8	Action:Type ma_nhap_hang in Kiểm kho textbox
+	27.10	Action:Click on 2223213 quan bo gridcell
+	27.11	Action:Wait 5 seconds
+	27.12	Action:Click on Thêm gridcell
+	27.15	Action:Type "quan" in Chuyển kho nội bộ textbox
+	27.17	Action:Select "2223213-quan bo" from Hủy hàng autocomplete
+	27.19	Action:Click on Thêm gridcell
 	28	Action:Wait 3 seconds
 	29	Action:THU CHI
 	31	Action:Click on THU CHI
