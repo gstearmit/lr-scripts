@@ -130,7 +130,7 @@ F(){
 	27.2	Action:Wait 3 seconds
 	27.3	Action:Click on Thêm mới gridcell
 	27.7	Action:Evaluate JS ma_nhap_hang = LR.getParam("ma_nhap_hang");
-window.alert(ma_nhap_hang);
+//window.alert(ma_nhap_hang);
 	27.8	Action:Type ma_nhap_hang in Kiểm kho textbox
 	27.10	Action:Click on 2223213 quan bo gridcell
 	27.11	Action:Wait 5 seconds
